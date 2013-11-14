@@ -1,115 +1,93 @@
 // Adapter for <view>
 (function() {
     var ViewRenderAdapter = function(factory, node) {
-        XML3D.webgl.RenderAdapter.call(this, factory, node);
-        this.zFar = 100000;
-        this.zNear = 0.1;
-        this.parentTransform = null;
-        this.viewMatrix = mat4.create();
-        this.projMatrix = null;
-        this.worldPosition = [0,0,0];
-        this.updateViewMatrix();
+        XML3D.webgl.TransformableAdapter.call(this, factory, node);
+        connectProjectionAdapter(this);
+        this.createRenderNode();
     };
-    XML3D.createClass(ViewRenderAdapter, XML3D.webgl.RenderAdapter);
+    XML3D.createClass(ViewRenderAdapter, XML3D.webgl.TransformableAdapter);
     var p = ViewRenderAdapter.prototype;
 
-    var tmp = mat4.create(),
-        tmp2 = mat4.create();
+    p.createRenderNode = function() {
+        var parent = this.factory.getAdapter(this.node.parentElement, XML3D.webgl.RenderAdapter);
+        var parentNode = parent.getRenderNode ? parent.getRenderNode() : this.factory.renderer.scene.createRootNode();
 
-    p.updateViewMatrix = function() {
-        // Create local matrix
-        var pos = this.node.position._data;
-        var orient = this.node.orientation.toMatrix()._data;
-
-        // tmp = T
-        mat4.identity(tmp);
-        tmp[12] = pos[0];
-        tmp[13] = pos[1];
-        tmp[14] = pos[2];
-
-        // tmp = T * O
-        mat4.multiply(tmp, orient);
-
-        var p = this.factory.getAdapter(this.node.parentNode);
-        this.parentTransform = p.applyTransformMatrix(mat4.identity(tmp2));
-
-        if (this.parentTransform) {
-            mat4.multiply(this.parentTransform, tmp, tmp);
-        }
-        this.worldPosition = [tmp[12], tmp[13], tmp[14]];
-        mat4.set(mat4.inverse(tmp), this.viewMatrix);
-    };
-
-    p.getProjectionMatrix = function(aspect) {
-        if (this.projMatrix == null) {
-            var fovy = this.node.fieldOfView;
-            var zfar = this.zFar;
-            var znear = this.zNear;
-            var f = 1 / Math.tan(fovy / 2);
-            this.projMatrix = mat4.create([ f / aspect, 0, 0, 0, 0, f, 0, 0, 0, 0, (znear + zfar) / (znear - zfar), -1, 0, 0,
-                   2 * znear * zfar / (znear - zfar), 0 ]);
-
-        }
-        return this.projMatrix;
+        this.renderNode = this.factory.renderer.scene.createRenderView({
+            position : this.node.position._data,
+            orientation : this.node.orientation.toMatrix()._data,
+            fieldOfView : this.node.fieldOfView,
+            parent : parentNode,
+            projectionAdapter : this.getConnectedAdapter("perspective")
+        });
     };
 
     /* Interface method */
     p.getViewMatrix = function() {
         var m = new window.XML3DMatrix();
-        m._data.set(this.viewMatrix);
+        this.renderNode.getWorldToViewMatrix(m._data);
         return m;
     };
-    
-    /** 
-     * @return {XML3DMatrix} returns the inverse of the view matrix, since now we 
-     * want to go world2view and not view2world
+
+    /**
+     * returns view2world matrix
+     * @return {window.XML3DMatrix}
      */
-    p.getWorldMatrix = function() {        
-        var m = new window.XML3DMatrix();  
-        var tmp = mat4.create(); 
-        mat4.inverse(this.viewMatrix, tmp); 
-        m._data.set(tmp);
-        return m; 
-    }; 
-
-
-    p.getModelViewMatrix = function(model) {
-        return mat4.multiply(this.viewMatrix, model, mat4.create());
+    p.getWorldMatrix = function() {
+        var m = new window.XML3DMatrix();
+        this.renderNode.getViewToWorldMatrix(m._data);
+        return m;
     };
 
-    p.getModelViewProjectionMatrix = function(modelViewMatrix) {
-        return mat4.multiply(this.projMatrix, modelViewMatrix, mat4.create());
-    };
-    
-    p.getWorldSpacePosition = function() {
-    	return this.worldPosition;
-    };
+    p.notifyChanged = function (evt) {
+        switch (evt.type) {
+            case XML3D.events.THIS_REMOVED:
+                this.dispose();
+                break;
+            case XML3D.events.VALUE_MODIFIED:
+                var target = evt.wrapped.attrName;
 
-    p.notifyChanged = function(evt) {
-        var target = evt.internalType || evt.attrName || evt.wrapped.attrName;
+                switch (target) {
+                    case "orientation":
+                        this.renderNode.updateOrientation(this.node.orientation.toMatrix()._data);
+                        break;
+                    case "position":
+                        this.renderNode.updatePosition(this.node.position._data);
+                        break;
+                    case "fieldOfView":
+                        this.renderNode.updateFieldOfView(this.node.fieldOfView);
+                        break;
+                    default:
+                        XML3D.debug.logWarning("Unhandled value changed event in view adapter for attribute:" + target);
+                }
+                break;
+            case XML3D.events.ADAPTER_HANDLE_CHANGED:
+                switch (evt.key) {
+                    case "perspective":
+                        connectProjectionAdapter(this);
+                        this.renderNode.setProjectionAdapter(this.getConnectedAdapter("perspective"));
+                        break;
 
-        switch (target) {
-        case "parenttransform":
-            this.parentTransform = evt.newValue;
-            this.updateViewMatrix();
-        break;
-        
-        case "orientation":
-        case "position":
-             this.updateViewMatrix();
-        break;
-        
-        case "fieldOfView":
-             this.projMatrix = null;
-        break;
-        
-        default:
-            XML3D.debug.logWarning("Unhandled event in view adapter for parameter " + target);
-        break;
+                    default:
+                        XML3D.debug.logWarning("Unhandled adapter handle changed event in view adapter for parameter " + target);
+                        break;
+                }
         }
- 
-        this.factory.handler.redraw("View changed");
+        this.factory.getRenderer().requestRedraw("View changed");
     };
+
+    function connectProjectionAdapter(adapter){
+        var href = adapter.node.getAttribute("perspective");
+        if(href) {
+            adapter.connectAdapterHandle("perspective", adapter.getAdapterHandle(href));
+        } else {
+            adapter.disconnectAdapterHandle("perspective");
+        }
+    }
+
+    p.dispose = function() {
+        this.getRenderNode().remove();
+        this.clearAdapterHandles();
+    }
 
     // Export to XML3D.webgl namespace
     XML3D.webgl.ViewRenderAdapter = ViewRenderAdapter;

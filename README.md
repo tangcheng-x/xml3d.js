@@ -14,6 +14,8 @@ XML3D is also an evaluation platform of the W3C Community Group [Declarative 3D 
 <a href="http://www.xml3d.org/xml3d/demos/12_MarsCity/marscity.xhtml"><img src="http://www.xml3d.org/xml3d/demos/thumbs/marscity.jpg?s"/></a>
 <a href="http://www.xml3d.org/xml3d/demos/32_WorldBank/"><img src="http://www.xml3d.org/xml3d/demos/thumbs/worldbank.jpg"/></a>
 <a href="http://xml3d.github.com/xml3d-museum/"><img src="http://www.xml3d.org/xml3d/demos/thumbs/museum.jpg"/></a>
+<a href="http://xml3d.github.com/xml3d-examples/examples/gangnam/style.xhtml"><img src="http://www.xml3d.org/xml3d/demos/thumbs/gangnam.jpg"/></a>
+<a href="http://xml3d.github.io/xml3d-examples/examples/xflowAR/ar_flying_teapot.xhtml"><img src="http://www.xml3d.org/xml3d/demos/thumbs/ar.jpg"/></a>
 
 #### Usage ####
 
@@ -39,8 +41,28 @@ The xml3d.js is separated into several files. To build, run the ant script
 'build.xml' located in the 'build' folder. From Eclipse IDE the build can also
 be started by running 'Run As->Ant build' from the files context menu.
 
+### Documentation ###
+We have an overview documentation in each subfolder of the project:
+* [build](build/) - The build system of xml3d.js.
+* [src](src/) - The actual source code of the xml3d.js library
+* [tests](tests/) - The test suite
+* [tools](tools/) - Several tools that can be used optionally with xml3d.js
+
+
 ### Change log ###
-4.3 - 18.20.2012
+4.4 - 23.04.2013
+* Image Processing with Xflow (also as standalone library) - [demo](http://xml3d.github.io/xml3d-examples/examples/xflowIP/pixel-wise.html)
+* Transformations as Xflow sink
+  * Augemented Reality (AR) - [demo](http://xml3d.github.io/xml3d-examples/examples/xflowAR/ar_flying_teapot.xhtml)
+  * Keyframe animations
+* Generalized resources for meshes, shaders, etc.
+  * Support for [XML](http://xml3d.github.com/xml3d-examples/examples/externalXml/externalXml.xhtml) and [JSON](http://xml3d.github.io/xml3d-examples/examples/suzanne/suzanne.xhtml)
+  * External loader plug-ins: [OpenCTM](http://xml3d.github.io/xml3d-examples/examples/openctm/openctm.xhtml) and [MeshLab](http://xml3d.github.io/xml3d-examples/examples/meshlab/meshlab.xhtml)
+* [Xflow API](): Observer Xflow graph from JavaScript
+* Canvas resizing [demo](http://xml3d.github.io/xml3d-examples/examples/canvasresizing/resizing.xhtml)
+* Issues: Fixed [#2](https://github.com/xml3d/xml3d.js/issues/2), Fixed [#3](https://github.com/xml3d/xml3d.js/issues/3)
+
+4.3 - 18.12.2012
 * [Xflow](https://github.com/xml3d/xml3d.js/wiki/Xflow) support, including
   * Skinning - [demo](http://xml3d.github.com/xml3d-examples/examples/xflowSkin/xflow-skin.xhtml) &amp; [demo](http://xml3d.github.com/xml3d-examples/examples/gangnam/style.xhtml)
   * Sequential Morphing - [demo](http://xml3d.github.com/xml3d-examples/examples/xflowSequentialMorph/xflow-morph.xhtml)
@@ -65,3 +87,4 @@ be started by running 'Run As->Ant build' from the files context menu.
 
 4.1 - 19.07.2012
 * Initial release on GitHub
+#

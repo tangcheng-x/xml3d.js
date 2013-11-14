@@ -128,8 +128,8 @@ test("Transformation creates non-regular matrix", 2, function() {
 });
 
 // ============================================================================
-// === Bounding Boxes === 
-// ============================================================================ 
+// === Bounding Boxes ===
+// ============================================================================
 module("Bounding Boxes", {
     setup : function() {
         stop();
@@ -137,6 +137,7 @@ module("Bounding Boxes", {
         this.cb = function(e) {
             ok(true, "Scene loaded");
             that.doc = document.getElementById("xml3dframe").contentDocument;
+            that.xml3dElement = that.doc.getElementById("myXml3d");
             start();
         };
         loadDocument("scenes/boundingBox.xhtml", this.cb);
@@ -144,7 +145,7 @@ module("Bounding Boxes", {
     teardown : function() {
         var v = document.getElementById("xml3dframe");
         v.removeEventListener("load", this.cb, true);
-    },
+    }
 });
 
 
@@ -183,8 +184,46 @@ test("Groups and Meshes", 16, function() {
 
 });
 
+test("Hidden groups", 5, function() {
+    var root = this.doc.getElementById("g_Root").getBoundingBox();
+    root.visible = false;
+    var group = this.doc.getElementById("g_PartiallyHidden");
+    group.visible = true;
+
+    var boundingBox = group.getBoundingBox();
+    QUnit.closeBox(boundingBox, new XML3DBox(new XML3DVec3(2,1.5,-1),new XML3DVec3(4,3.5,1)), EPSILON, "Hidden child group: (2 1.5 -1) to (4 3.5 1)");
+    this.doc.getElementById("invisible_cube").visible = true;
+    boundingBox = group.getBoundingBox();
+    QUnit.closeBox(boundingBox, new XML3DBox(new XML3DVec3(-4,1.5,-1),new XML3DVec3(4,3.5,1)), EPSILON, "Visible child group: (-4 1.5 -1) to (4 3.5 1)");
+    this.doc.getElementById("invisible_mesh").visible = false;
+    boundingBox = group.getBoundingBox();
+    QUnit.closeBox(boundingBox, new XML3DBox(new XML3DVec3(2,1.5,-1),new XML3DVec3(4,3.5,1)), EPSILON, "Hidden child mesh: (2 1.5 -1) to (4 3.5 1)");
+});
+
+test("Dynamically added mesh", function() {
+
+    var mesh = XML3D.createElement("mesh");
+
+    ok(mesh.getBoundingBox().isEmpty(), "Newly created mesh delivers empty bounding box");
+
+    mesh.setAttribute("type", "triangles");
+    mesh.setAttribute("src", "#mySimpleMesh");
+
+    this.xml3dElement.appendChild(mesh);
+
+    // renderadapter is initialized but mesh data is still not initialized
+    ok(mesh.getBoundingBox().isEmpty(), "Appended mesh delivers empty bounding box");
+
+    //Mesh changes are not applied until frame renders
+    var h = getHandler(this.xml3dElement);
+    h.draw();
+
+    QUnit.closeBox(mesh.getBoundingBox(), new XML3DBox(new XML3DVec3(-1, -1, 0), new XML3DVec3(1,1,0)), EPSILON,
+            "simple mesh bounding box: (-1 -1 0) to (1 1 0)");
+});
+
 //============================================================================
-//=== getWorldMatrix === 
+//=== getWorldMatrix ===
 //============================================================================
 
 module("getWorldMatrix() Tests", {
@@ -194,100 +233,100 @@ module("getWorldMatrix() Tests", {
         this.cb = function(e) {
             ok(true, "Scene loaded");
             that.doc = document.getElementById("xml3dframe").contentDocument;
-            that.setupMatrices(); 
+            that.setupMatrices();
             start();
         };
-        
+
         loadDocument("scenes/basic.xhtml", this.cb);
     },
-    
+
     teardown : function() {
         var v = document.getElementById("xml3dframe");
         v.removeEventListener("load", this.cb, true);
-    }, 
-    
-    setupMatrices : function() { 
+    },
+
+    setupMatrices : function() {
 
         // t_rotation
         this.matRot = new XML3DMatrix(
-                1,  0, 0, 0, 
-                0,  0, 1, 0, 
-                0, -1, 0, 0, 
-                0,  0, 0, 1);   
-        
+                1,  0, 0, 0,
+                0,  0, 1, 0,
+                0, -1, 0, 0,
+                0,  0, 0, 1);
+
         // t_rotation2
         this.matRot2 = new XML3DMatrix(
-                 0, 0, -1, 0, 
-                 0, 1,  0, 0, 
-                 1, 0,  0, 0, 
+                 0, 0, -1, 0,
+                 0, 1,  0, 0,
+                 1, 0,  0, 0,
                  0, 0,  0, 1);
 
         // t_rotation3
         this.matRot3 = new XML3DMatrix(
-                 0, 1, 0, 0, 
-                -1, 0, 0, 0, 
-                 0, 0, 1, 0, 
+                 0, 1, 0, 0,
+                -1, 0, 0, 0,
+                 0, 0, 1, 0,
                  0, 0, 0, 1);
 
         // t_mixed
         this.matMixed = new XML3DMatrix(
-                1,  0, 0, 0, 
-                0,  0, 2, 0, 
-                0, -3, 0, 0, 
-                1,  2, 3, 1);  
-    }, 
-    
-    /** 
+                1,  0, 0, 0,
+                0,  0, 2, 0,
+                0, -3, 0, 0,
+                1,  2, 3, 1);
+    },
+
+    /**
      * Simple test: existence of method, setting of parent transform and recompute matrix.
-     * 
+     *
      * @param {!Object} node the node under test
      */
     simpleMatrixTest : function(node) {
 
-        var parGrp = node.parentNode;  
-        
-        ok(node.getWorldMatrix, "getWorldMatrix exists"); 
-        
-        QUnit.closeMatrix(node.getWorldMatrix(), new XML3DMatrix(), EPSILON, "identity"); 
-        
-        parGrp.setAttribute("transform", "#t_mixed"); 
+        var parGrp = node.parentNode;
+
+        ok(node.getWorldMatrix, "getWorldMatrix exists");
+
+        QUnit.closeMatrix(node.getWorldMatrix(), new XML3DMatrix(), EPSILON, "identity");
+
+        parGrp.setAttribute("transform", "#t_mixed");
         QUnit.closeMatrix(node.getWorldMatrix(), this.matMixed, EPSILON, "parent='#t_mixed'");
-    },    
+    }
 });
 
 test("group's getWorldMatrix()", function() {
-    
+
     var child01 = this.doc.getElementById("child01");
-    var parGrp = this.doc.getElementById("parentGroup"); 
-    
+    var parGrp = this.doc.getElementById("parentGroup");
+
     ok(child01.getWorldMatrix, "getWorldMatrix exists");
 
     // parent's transform: t_rotation
-    var mat = child01.getWorldMatrix();  
-    QUnit.closeMatrix(mat, this.matRot, EPSILON, "parent='#t_rotation'."); 
-    
+    var mat = child01.getWorldMatrix();
+    QUnit.closeMatrix(mat, this.matRot, EPSILON, "parent='#t_rotation'.");
+
     // parent's transform: t_rotation2
     parGrp.setAttribute("transform", "#t_rotation2");
-    
-    mat = child01.getWorldMatrix(); 
-    QUnit.closeMatrix(mat, this.matRot2, EPSILON, "parent='#t_rotation2'.");    
-        
-    // parent is t_rotation3 and child is t_mixed 
+
+    mat = child01.getWorldMatrix();
+    QUnit.closeMatrix(mat, this.matRot2, EPSILON, "parent='#t_rotation2'.");
+
+    // parent is t_rotation3 and child is t_mixed
     parGrp.setAttribute("transform", "#t_rotation3");
-    child01.setAttribute("transform", "#t_mixed");   
-    
-    mat = child01.getWorldMatrix(); 
+    child01.setAttribute("transform", "#t_mixed");
+
+    mat = child01.getWorldMatrix();
     QUnit.closeMatrix(mat, this.matRot3.multiply(this.matMixed), EPSILON, "parent='#t_rotation3' and child='#t_mixed'.");
-}); 
+});
 
 test("mesh's getWorldMatrix()", function() {
-    this.simpleMatrixTest(this.doc.getElementById("myMesh01")); 
-}); 
+    this.simpleMatrixTest(this.doc.getElementById("myMesh01"));
+});
 
-test("light's getWorldMatrix()", function() { 
-    this.simpleMatrixTest(this.doc.getElementById("myLight")); 
-}); 
+test("light's getWorldMatrix()", function() {
+    this.simpleMatrixTest(this.doc.getElementById("myLight"));
+});
 
-test("view's getWorldMatrix()", function() { 
-    this.simpleMatrixTest(this.doc.getElementById("myView"));    
-}); 
+test("view's getWorldMatrix()", function() {
+    this.simpleMatrixTest(this.doc.getElementById("myView"));
+});

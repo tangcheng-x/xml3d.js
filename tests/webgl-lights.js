@@ -120,7 +120,7 @@ test("Change directional light direction", 5, function() {
     h.draw();
     actual = win.getPixelValue(gl, 90, 90);
     deepEqual(actual, [0,0,0,255], "Light parallel to the plane");
-    
+
     test.setAttribute("rotation", "0 1 0 1.5");
     h.draw();
     actual = win.getPixelValue(gl, 90, 90);
@@ -141,10 +141,113 @@ test("Change lightshader intensity", 4, function() {
     actual = win.getPixelValue(gl, 90, 90);
     deepEqual(actual, [0,0,255,255], "Initial light intensity");
 
-    var test = this.doc.getElementById("lsIntensity");
+    var test = this.doc.getElementById("lsdIntensity");
     test.textContent = "10 10 0";
     h.draw();
     actual = win.getPixelValue(gl, 90, 90);
     deepEqual(actual, [255,255,0,255], "Light intensity changed to yellow");
-   
+
+});
+
+test("Adding lights", 6, function() {
+    var x = this.doc.getElementById("xml3DElem"),
+    actual,
+    win = this.doc.defaultView,
+    gl = getContextForXml3DElement(x),
+    h = getHandler(x);
+    var lightsArray = h.renderer.scene.lights;
+    ok(lightsArray.point.length == 1 && lightsArray.directional.length == 1, "Renderer sees 2 lights");
+
+    var newLight = this.doc.createElementNS(XML3D.ns, "light");
+    newLight.setAttribute("shader", "#ls_Point2");
+    this.doc.getElementById("pointlight2").appendChild(newLight);
+
+    equal(lightsArray.point.length, 2, "Light was added to the lights array");
+
+    var newSpot = this.doc.createElementNS(XML3D.ns, "light");
+    newSpot.setAttribute("shader", "#ls_Spot");
+    this.doc.getElementById("spotlight").appendChild(newSpot);
+
+    equal(lightsArray.spot.length, 1, "Spot light was added to the lights array");
+
+    this.doc.getElementById("dirlight").visible = false;
+    this.doc.getElementById("pointlight").visible = false;
+    this.doc.getElementById("phongShadedGroup").visible = true;
+    h.draw();
+    actual = win.getPixelValue(gl, 90, 90);
+    deepEqual(actual, [0,255,255,255], "Phong object is lit by the new lights");
+});
+
+test("Removing lights", 6, function() {
+    var x = this.doc.getElementById("xml3DElem"),
+    actual,
+    win = this.doc.defaultView,
+    gl = getContextForXml3DElement(x),
+    h = getHandler(x);
+    var lightsArray = h.renderer.scene.lights;
+    ok(lightsArray.point.length == 1 && lightsArray.directional.length == 1, "Renderer sees 2 lights");
+    this.doc.getElementById("dirlight").visible = true;
+    this.doc.getElementById("pointlight").visible = true;
+
+    this.doc.getElementById("phongShadedGroup").visible = true;
+    h.draw();
+    actual = win.getPixelValue(gl, 90, 90);
+    deepEqual(actual, [255,0,255,255], "Phong object is lit by both lights");
+
+    var dirLight = this.doc.getElementById("dirlight");
+    dirLight.parentElement.removeChild(dirLight);
+
+    equal(lightsArray.directional.length, 0, "Light was removed from the lights array");
+
+    h.draw();
+    actual = win.getPixelValue(gl, 90, 90);
+    deepEqual(actual, [255,0,0,255], "Phong object is lit by the single remaining light only");
+
+});
+
+test("Change light shader", 5, function() {
+    var x = this.doc.getElementById("xml3DElem"),
+    actual,
+    win = this.doc.defaultView,
+    gl = getContextForXml3DElement(x),
+    h = getHandler(x);
+    this.doc.getElementById("pointlight").visible = true;
+    this.doc.getElementById("dirlight").visible = false;
+
+    this.doc.getElementById("phongShadedGroup").visible = true;
+    h.draw();
+    actual = win.getPixelValue(gl, 90, 90);
+    deepEqual(actual, [255,0,0,255], "Phong object is lit by red point light shader");
+
+    this.doc.getElementById("pointlightLight").shader = "#ls_Point2";
+
+    h.draw();
+    actual = win.getPixelValue(gl, 90, 90);
+    deepEqual(actual, [0,0,255,255], "Phong object is lit by blue point light shader");
+
+    this.doc.getElementById("pointIntensity").textContent = "0 10 0";
+    h.draw();
+    actual = win.getPixelValue(gl, 90, 90);
+    deepEqual(actual, [0,0,255,255], "Change to old lightshader did not affect the object");
+});
+
+test("Remove light shader", 4, function() {
+    var x = this.doc.getElementById("xml3DElem"),
+    actual,
+    win = this.doc.defaultView,
+    gl = getContextForXml3DElement(x),
+    h = getHandler(x);
+
+    this.doc.getElementById("phongShadedGroup").visible = true;
+    h.draw();
+    actual = win.getPixelValue(gl, 90, 90);
+    deepEqual(actual, [255,0,255,255], "Phong object is lit by both lights");
+
+    var pointLight = this.doc.getElementById("ls_Point");
+    pointLight.parentElement.removeChild(pointLight);
+
+    h.draw();
+    actual = win.getPixelValue(gl, 90, 90);
+    deepEqual(actual, [0,0,255,255], "Red point light has been implcitly removed");
+
 });

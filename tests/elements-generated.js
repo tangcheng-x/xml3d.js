@@ -39,8 +39,12 @@ test("&lt;data&gt; interface test", function() {
     equal(typeof e.id, "string", "id is of type 'string'");
     equal(typeof e.compute, "string", "compute is of type 'string'");
     equal(typeof e.filter, "string", "filter is of type 'string'");
+    equal(typeof e.getOutputNames, "function", "getOutputNames is of type 'function'");
+    equal(typeof e.getOutputChannelInfo, "function", "getOutputChannelInfo is of type 'function'");
+    equal(typeof e.getComputeInfo, "function", "getComputeInfo is of type 'function'");
+    equal(typeof e.getProtoInfo, "function", "getProtoInfo is of type 'function'");
+    equal(typeof e.isOutputConnected, "function", "isOutputConnected is of type 'function'");
     equal(typeof e.getResult, "function", "getResult is of type 'function'");
-    equal(typeof e.getOutputFieldNames, "function", "getOutputFieldNames is of type 'function'");
     equal(typeof e.src, "string", "src is of type 'string'");
     equal(typeof e.proto, "string", "proto is of type 'string'");
 });
@@ -95,6 +99,12 @@ test("&lt;mesh&gt; interface test", function() {
     equal(typeof e.compute, "string", "compute is of type 'string'");
     equal(typeof e.getWorldMatrix, "function", "getWorldMatrix is of type 'function'");
     equal(typeof e.getBoundingBox, "function", "getBoundingBox is of type 'function'");
+    equal(typeof e.getOutputNames, "function", "getOutputNames is of type 'function'");
+    equal(typeof e.getOutputChannelInfo, "function", "getOutputChannelInfo is of type 'function'");
+    equal(typeof e.getComputeInfo, "function", "getComputeInfo is of type 'function'");
+    equal(typeof e.getProtoInfo, "function", "getProtoInfo is of type 'function'");
+    equal(typeof e.isOutputConnected, "function", "isOutputConnected is of type 'function'");
+    equal(typeof e.getResult, "function", "getResult is of type 'function'");
     equal(typeof e.src, "string", "src is of type 'string'");
     equal(typeof e.proto, "string", "proto is of type 'string'");
 });
@@ -117,6 +127,12 @@ test("&lt;shader&gt; interface test", function() {
     equal(typeof e.style, "object", "style is of type 'object'");
     equal(typeof e.id, "string", "id is of type 'string'");
     equal(typeof e.compute, "string", "compute is of type 'string'");
+    equal(typeof e.getOutputNames, "function", "getOutputNames is of type 'function'");
+    equal(typeof e.getOutputChannelInfo, "function", "getOutputChannelInfo is of type 'function'");
+    equal(typeof e.getComputeInfo, "function", "getComputeInfo is of type 'function'");
+    equal(typeof e.getProtoInfo, "function", "getProtoInfo is of type 'function'");
+    equal(typeof e.isOutputConnected, "function", "isOutputConnected is of type 'function'");
+    equal(typeof e.getResult, "function", "getResult is of type 'function'");
     equal(typeof e.script, "string", "script is of type 'string'");
     equal(typeof e.src, "string", "src is of type 'string'");
     equal(typeof e.proto, "string", "proto is of type 'string'");
@@ -150,6 +166,12 @@ test("&lt;lightshader&gt; interface test", function() {
     equal(typeof e.style, "object", "style is of type 'object'");
     equal(typeof e.id, "string", "id is of type 'string'");
     equal(typeof e.compute, "string", "compute is of type 'string'");
+    equal(typeof e.getOutputNames, "function", "getOutputNames is of type 'function'");
+    equal(typeof e.getOutputChannelInfo, "function", "getOutputChannelInfo is of type 'function'");
+    equal(typeof e.getComputeInfo, "function", "getComputeInfo is of type 'function'");
+    equal(typeof e.getProtoInfo, "function", "getProtoInfo is of type 'function'");
+    equal(typeof e.isOutputConnected, "function", "isOutputConnected is of type 'function'");
+    equal(typeof e.getResult, "function", "getResult is of type 'function'");
     equal(typeof e.script, "string", "script is of type 'string'");
     equal(typeof e.src, "string", "src is of type 'string'");
     equal(typeof e.proto, "string", "proto is of type 'string'");
@@ -171,7 +193,12 @@ test("&lt;proto&gt; interface test", function() {
     equal(typeof e.id, "string", "id is of type 'string'");
     equal(typeof e.compute, "string", "compute is of type 'string'");
     equal(typeof e.filter, "string", "filter is of type 'string'");
-    equal(typeof e.getOutputFieldNames, "function", "getOutputFieldNames is of type 'function'");
+    equal(typeof e.getOutputNames, "function", "getOutputNames is of type 'function'");
+    equal(typeof e.getOutputChannelInfo, "function", "getOutputChannelInfo is of type 'function'");
+    equal(typeof e.getComputeInfo, "function", "getComputeInfo is of type 'function'");
+    equal(typeof e.getProtoInfo, "function", "getProtoInfo is of type 'function'");
+    equal(typeof e.isOutputConnected, "function", "isOutputConnected is of type 'function'");
+    equal(typeof e.getResult, "function", "getResult is of type 'function'");
     equal(typeof e.src, "string", "src is of type 'string'");
     equal(typeof e.proto, "string", "proto is of type 'string'");
 });
@@ -184,6 +211,7 @@ test("&lt;float&gt; interface test", function() {
     equal(typeof e.name, "string", "name is of type 'string'");
     equal(typeof e.param, "boolean", "param is of type 'boolean'");
     equal(typeof e.key, "number", "key is of type 'number'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;float2&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "float2");
@@ -194,6 +222,7 @@ test("&lt;float2&gt; interface test", function() {
     equal(typeof e.name, "string", "name is of type 'string'");
     equal(typeof e.param, "boolean", "param is of type 'boolean'");
     equal(typeof e.key, "number", "key is of type 'number'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;float3&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "float3");
@@ -204,6 +233,7 @@ test("&lt;float3&gt; interface test", function() {
     equal(typeof e.name, "string", "name is of type 'string'");
     equal(typeof e.param, "boolean", "param is of type 'boolean'");
     equal(typeof e.key, "number", "key is of type 'number'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;float4&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "float4");
@@ -214,6 +244,7 @@ test("&lt;float4&gt; interface test", function() {
     equal(typeof e.name, "string", "name is of type 'string'");
     equal(typeof e.param, "boolean", "param is of type 'boolean'");
     equal(typeof e.key, "number", "key is of type 'number'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;float4x4&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "float4x4");
@@ -224,6 +255,7 @@ test("&lt;float4x4&gt; interface test", function() {
     equal(typeof e.name, "string", "name is of type 'string'");
     equal(typeof e.param, "boolean", "param is of type 'boolean'");
     equal(typeof e.key, "number", "key is of type 'number'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;int&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "int");
@@ -234,6 +266,7 @@ test("&lt;int&gt; interface test", function() {
     equal(typeof e.name, "string", "name is of type 'string'");
     equal(typeof e.param, "boolean", "param is of type 'boolean'");
     equal(typeof e.key, "number", "key is of type 'number'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;int4&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "int4");
@@ -244,6 +277,7 @@ test("&lt;int4&gt; interface test", function() {
     equal(typeof e.name, "string", "name is of type 'string'");
     equal(typeof e.param, "boolean", "param is of type 'boolean'");
     equal(typeof e.key, "number", "key is of type 'number'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;bool&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "bool");
@@ -254,6 +288,7 @@ test("&lt;bool&gt; interface test", function() {
     equal(typeof e.name, "string", "name is of type 'string'");
     equal(typeof e.param, "boolean", "param is of type 'boolean'");
     equal(typeof e.key, "number", "key is of type 'number'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;texture&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "texture");
@@ -272,6 +307,7 @@ test("&lt;texture&gt; interface test", function() {
     equal(typeof e.wrapT, "string", "wrapT is of type 'string'");
     equal(typeof e.wrapU, "string", "wrapU is of type 'string'");
     equal(typeof e.borderColor, "string", "borderColor is of type 'string'");
+    equal(typeof e.setScriptValue, "function", "setScriptValue is of type 'function'");
 });
 test("&lt;img&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "img");
@@ -288,6 +324,9 @@ test("&lt;video&gt; interface test", function() {
     equal(typeof e.style, "object", "style is of type 'object'");
     equal(typeof e.id, "string", "id is of type 'string'");
     equal(typeof e.src, "string", "src is of type 'string'");
+    equal(typeof e.autoplay, "boolean", "autoplay is of type 'boolean'");
+    equal(typeof e.play, "function", "play is of type 'function'");
+    equal(typeof e.pause, "function", "pause is of type 'function'");
 });
 test("&lt;view&gt; interface test", function() {
     var e = document.createElementNS(XML3D.xml3dNS, "view");
@@ -316,4 +355,5 @@ test("&lt;view&gt; interface test", function() {
     equal(typeof e.getDirection, "function", "getDirection is of type 'function'");
     equal(typeof e.getUpVector, "function", "getUpVector is of type 'function'");
     equal(typeof e.getViewMatrix, "function", "getViewMatrix is of type 'function'");
+    equal(typeof e.perspective, "string", "perspective is of type 'string'");
 });
