@@ -1,0 +1,1127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ASVector	.\xflowAR\script\JSARToolKit.js	/^ASVector = function(elements) {$/;"	f
+ASVector	.\xflowAR\script\JSARToolKit.js	/^ASVector.prototype = {};$/;"	c
+ASVector	.\xflowImageProcessing\JSARToolKit.js	/^ASVector = function(elements) {$/;"	f
+ASVector	.\xflowImageProcessing\JSARToolKit.js	/^ASVector.prototype = {};$/;"	c
+ASVector.set	.\xflowAR\script\JSARToolKit.js	/^ASVector.prototype.set = function(idx, val) {$/;"	m
+ASVector.set	.\xflowImageProcessing\JSARToolKit.js	/^ASVector.prototype.set = function(idx, val) {$/;"	m
+Animatable	.\xflowImageProcessing\xml3d-motion.js	/^    var Animatable = function(){};$/;"	f
+Animation	.\xflowImageProcessing\xml3d-motion.js	/^    var Animation = function(){};$/;"	f
+Array	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^            Array.prototype.reduce.call(actualArgs, jsObjectToKernelArg, kernelArgs);$/;"	c
+Array.reduce	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^            Array.prototype.reduce.call(actualArgs, jsObjectToKernelArg, kernelArgs);$/;"	m
+CTM.File	.\openctm\ctm.js	/^CTM.File = function(stream){$/;"	c
+CTM.File.getReader	.\openctm\ctm.js	/^CTM.File.prototype.getReader = function(){$/;"	m
+CTM.File.load	.\openctm\ctm.js	/^CTM.File.prototype.load = function(stream){$/;"	m
+CTM.FileBody	.\openctm\ctm.js	/^CTM.FileBody = function(header){$/;"	c
+CTM.FileHeader	.\openctm\ctm.js	/^CTM.FileHeader = function(stream) {$/;"	c
+CTM.FileHeader.hasNormals	.\openctm\ctm.js	/^CTM.FileHeader.prototype.hasNormals = function(){$/;"	m
+CTM.FileMG2Header	.\openctm\ctm.js	/^CTM.FileMG2Header = function(stream){$/;"	c
+CTM.InterleavedStream	.\openctm\ctm.js	/^CTM.InterleavedStream = function(data, count){$/;"	c
+CTM.InterleavedStream.writeByte	.\openctm\ctm.js	/^CTM.InterleavedStream.prototype.writeByte = function(value){$/;"	m
+CTM.ReaderMG1	.\openctm\ctm.js	/^CTM.ReaderMG1 = function(){$/;"	f
+CTM.ReaderMG1	.\openctm\ctm.js	/^CTM.ReaderMG1.prototype.read = function(stream, body){$/;"	c
+CTM.ReaderMG1.read	.\openctm\ctm.js	/^CTM.ReaderMG1.prototype.read = function(stream, body){$/;"	m
+CTM.ReaderMG1.readAttrMaps	.\openctm\ctm.js	/^CTM.ReaderMG1.prototype.readAttrMaps = function(stream, attrMaps){$/;"	m
+CTM.ReaderMG1.readIndices	.\openctm\ctm.js	/^CTM.ReaderMG1.prototype.readIndices = function(stream, indices){$/;"	m
+CTM.ReaderMG1.readNormals	.\openctm\ctm.js	/^CTM.ReaderMG1.prototype.readNormals = function(stream, normals){$/;"	m
+CTM.ReaderMG1.readUVMaps	.\openctm\ctm.js	/^CTM.ReaderMG1.prototype.readUVMaps = function(stream, uvMaps){$/;"	m
+CTM.ReaderMG1.readVertices	.\openctm\ctm.js	/^CTM.ReaderMG1.prototype.readVertices = function(stream, vertices){$/;"	m
+CTM.ReaderMG2	.\openctm\ctm.js	/^CTM.ReaderMG2 = function(){$/;"	f
+CTM.ReaderMG2	.\openctm\ctm.js	/^CTM.ReaderMG2.prototype.read = function(stream, body){$/;"	c
+CTM.ReaderMG2.read	.\openctm\ctm.js	/^CTM.ReaderMG2.prototype.read = function(stream, body){$/;"	m
+CTM.ReaderMG2.readAttrMaps	.\openctm\ctm.js	/^CTM.ReaderMG2.prototype.readAttrMaps = function(stream, attrMaps){$/;"	m
+CTM.ReaderMG2.readGridIndices	.\openctm\ctm.js	/^CTM.ReaderMG2.prototype.readGridIndices = function(stream, vertices){$/;"	m
+CTM.ReaderMG2.readIndices	.\openctm\ctm.js	/^CTM.ReaderMG2.prototype.readIndices = function(stream, indices){$/;"	m
+CTM.ReaderMG2.readNormals	.\openctm\ctm.js	/^CTM.ReaderMG2.prototype.readNormals = function(stream, body){$/;"	m
+CTM.ReaderMG2.readUVMaps	.\openctm\ctm.js	/^CTM.ReaderMG2.prototype.readUVMaps = function(stream, uvMaps){$/;"	m
+CTM.ReaderMG2.readVertices	.\openctm\ctm.js	/^CTM.ReaderMG2.prototype.readVertices = function(stream, vertices){$/;"	m
+CTM.ReaderRAW	.\openctm\ctm.js	/^CTM.ReaderRAW = function(){$/;"	f
+CTM.ReaderRAW	.\openctm\ctm.js	/^CTM.ReaderRAW.prototype.read = function(stream, body){$/;"	c
+CTM.ReaderRAW.read	.\openctm\ctm.js	/^CTM.ReaderRAW.prototype.read = function(stream, body){$/;"	m
+CTM.ReaderRAW.readAttrMaps	.\openctm\ctm.js	/^CTM.ReaderRAW.prototype.readAttrMaps = function(stream, attrMaps){$/;"	m
+CTM.ReaderRAW.readIndices	.\openctm\ctm.js	/^CTM.ReaderRAW.prototype.readIndices = function(stream, indices){$/;"	m
+CTM.ReaderRAW.readNormals	.\openctm\ctm.js	/^CTM.ReaderRAW.prototype.readNormals = function(stream, normals){$/;"	m
+CTM.ReaderRAW.readUVMaps	.\openctm\ctm.js	/^CTM.ReaderRAW.prototype.readUVMaps = function(stream, uvMaps){$/;"	m
+CTM.ReaderRAW.readVertices	.\openctm\ctm.js	/^CTM.ReaderRAW.prototype.readVertices = function(stream, vertices){$/;"	m
+CTM.Stream	.\openctm\ctm.js	/^CTM.Stream = function(data){$/;"	c
+CTM.Stream.TWO_POW_MINUS126	.\openctm\ctm.js	/^CTM.Stream.prototype.TWO_POW_MINUS126 = Math.pow(2, -126);$/;"	m
+CTM.Stream.TWO_POW_MINUS23	.\openctm\ctm.js	/^CTM.Stream.prototype.TWO_POW_MINUS23 = Math.pow(2, -23);$/;"	m
+CTM.Stream.getPosition	.\openctm\ctm.js	/^CTM.Stream.prototype.getPosition = function() {$/;"	m
+CTM.Stream.readArrayFloat32	.\openctm\ctm.js	/^CTM.Stream.prototype.readArrayFloat32 = function(array){$/;"	m
+CTM.Stream.readArrayInt32	.\openctm\ctm.js	/^CTM.Stream.prototype.readArrayInt32 = function(array){$/;"	m
+CTM.Stream.readByte	.\openctm\ctm.js	/^CTM.Stream.prototype.readByte = function() {$/;"	m
+CTM.Stream.readFloat32	.\openctm\ctm.js	/^CTM.Stream.prototype.readFloat32 = function(){$/;"	m
+CTM.Stream.readInt32	.\openctm\ctm.js	/^CTM.Stream.prototype.readInt32 = function(){$/;"	m
+CTM.Stream.readString	.\openctm\ctm.js	/^CTM.Stream.prototype.readString = function(){$/;"	m
+CTM.Stream.setPosition	.\openctm\ctm.js	/^CTM.Stream.prototype.setPosition = function(offset) {$/;"	m
+CTM.calcSmoothNormals	.\openctm\ctm.js	/^CTM.calcSmoothNormals = function(indices, vertices){$/;"	f
+CTM.restoreGridIndices	.\openctm\ctm.js	/^CTM.restoreGridIndices = function(gridIndices, len){$/;"	f
+CTM.restoreIndices	.\openctm\ctm.js	/^CTM.restoreIndices = function(indices, len){$/;"	f
+CTM.restoreMap	.\openctm\ctm.js	/^CTM.restoreMap = function(map, count, precision){$/;"	f
+CTM.restoreNormals	.\openctm\ctm.js	/^CTM.restoreNormals = function(normals, smooth, precision){$/;"	f
+CTM.restoreVertices	.\openctm\ctm.js	/^CTM.restoreVertices = function(vertices, grid, gridIndices, precision){$/;"	f
+CTSp.add	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTSp.add = function (name, constraint) {$/;"	f
+CTSp.addAccu	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTSp.addAccu = function (name, accu, index, size) {$/;"	f
+CTSp.intersect	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTSp.intersect = function (other) {$/;"	f
+CTSp.lookup	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTSp.lookup = function (name) {$/;"	f
+CTSp.merge	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTSp.merge = function (other) {$/;"	f
+CTp.intersect	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTp.intersect = function (other) {$/;"	f
+CTp.isComplete	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTp.isComplete = function () {$/;"	f
+CTp.merge	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTp.merge = function (other) {$/;"	f
+CTp.toString	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    CTp.toString = function () {$/;"	f
+Class	.\xflowImageProcessing\xml3d-motion.js	/^        return xfmMat;$/;"	f
+Class.constructor	.\xflowImageProcessing\xml3d-motion.js	/^        var constructor = function() {$/;"	f
+Constraint	.\xflowImageProcessing\xml3d-motion.js	/^    var Constraint = function(){};$/;"	f
+FCall	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var FCall = function (params, frame, result, ast) {$/;"	c
+FEMALE_MAT	.\facemorph\scripts\pca_kernel.js	/^var FEMALE_MAT = [$/;"	v
+FEnv	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var FEnv = function (env) {$/;"	c
+FEp.add	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    FEp.add = function (f, name, global) {$/;"	f
+FEp.lookup	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    FEp.lookup = function (name) {$/;"	f
+FEp.toFunDecls	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    FEp.toFunDecls = function () {$/;"	f
+FFunction	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var FFunction = function (params, result, root, ast) {$/;"	c
+FLOAT_EPSILON	.\xflowAR\script\gl-matrix.js	/^    var FLOAT_EPSILON = 0.000001;$/;"	v
+FLOAT_EPSILON	.\xflowImageProcessing\gl-matrix.js	/^    var FLOAT_EPSILON = 0.000001;$/;"	v
+FParam	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var FParam = function (number, call) {$/;"	c
+FPp.getCall	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    FPp.getCall = function () {$/;"	f
+FPp.getFrame	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    FPp.getFrame = function () {$/;"	f
+FPp.getTarget	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    FPp.getTarget = function () {$/;"	f
+FPp.redispatch	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    FPp.redispatch = function (frame) {$/;"	c
+Fast1DPA	.\xflowRivertrail\rivertrail\ParallelArray.js	/^        var Fast1DPA = function (pa) { $/;"	c
+Fast2DPA	.\xflowRivertrail\rivertrail\ParallelArray.js	/^        var Fast2DPA = function (pa) { $/;"	c
+Fast3DPA	.\xflowRivertrail\rivertrail\ParallelArray.js	/^        var Fast3DPA = function (pa) { $/;"	c
+FlatArray	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var FlatArray = function FlatArray(constructor, src) {$/;"	f
+FlatArray_fast	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var FlatArray_fast = function FlatArray_fast(constructor, src) {$/;"	f
+FlowNode	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var FlowNode = function () {$/;"	f
+Gamepad	.\xflowImageProcessing\xml3d-motion.js	/^	function Gamepad(status) {$/;"	c
+Gamepad.dispatchAxisEvent	.\xflowImageProcessing\xml3d-motion.js	/^	Gamepad.prototype.dispatchAxisEvent = function (attribute) {$/;"	m
+Gamepad.dispatchButtonEvent	.\xflowImageProcessing\xml3d-motion.js	/^	Gamepad.prototype.dispatchButtonEvent = function (attribute) {$/;"	m
+Gamepad.dispatchCustomEvent	.\xflowImageProcessing\xml3d-motion.js	/^	Gamepad.prototype.dispatchCustomEvent = function (eventName, detail) {$/;"	m
+Gamepad.getId	.\xflowImageProcessing\xml3d-motion.js	/^	Gamepad.prototype.getId = function () {$/;"	m
+Gamepad.getIndex	.\xflowImageProcessing\xml3d-motion.js	/^	Gamepad.prototype.getIndex = function () {$/;"	m
+Gamepad.updateStatus	.\xflowImageProcessing\xml3d-motion.js	/^	Gamepad.prototype.updateStatus = function (newStatus) { };$/;"	m
+GamepadEventProvider	.\xflowImageProcessing\xml3d-motion.js	/^	function GamepadEventProvider() {$/;"	c
+GamepadEventProvider.createNewGamepad	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.createNewGamepad = function (newGamepadData) {$/;"	m
+GamepadEventProvider.gamepadApiAvailable	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.gamepadApiAvailable = function () {$/;"	m
+GamepadEventProvider.getInstance	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.getInstance = function(){$/;"	m
+GamepadEventProvider.getNewStatusDataFromAPI	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.getNewStatusDataFromAPI = function () {$/;"	m
+GamepadEventProvider.handleDisconnectedGamepads	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.handleDisconnectedGamepads = function (newStatusData) {$/;"	m
+GamepadEventProvider.handleNewlyConnectedGamepads	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.handleNewlyConnectedGamepads = function (newStatusData) {$/;"	m
+GamepadEventProvider.init	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.init = function(){$/;"	m
+GamepadEventProvider.nextPoll	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.nextPoll = function () {$/;"	m
+GamepadEventProvider.onePoll	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.onePoll = function () {$/;"	m
+GamepadEventProvider.processNewStatusData	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.processNewStatusData = function (newStatusData) {$/;"	m
+GamepadEventProvider.startPolling	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.startPolling = function () {$/;"	m
+GamepadEventProvider.stopPolling	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.stopPolling = function () {$/;"	m
+GamepadEventProvider.updateGamepads	.\xflowImageProcessing\xml3d-motion.js	/^	GamepadEventProvider.prototype.updateGamepads = function (newStatusData) {$/;"	m
+IBarfAtYouUnlessYouUnzipMe	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    var IBarfAtYouUnlessYouUnzipMe = function IBarfAtYouUnlessYouUnzipMe(data) {$/;"	c
+IBarfAtYouUnlessYouUnzipMe	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    var IBarfAtYouUnlessYouUnzipMe = function IBarfAtYouUnlessYouUnzipMe(data) {$/;"	f
+IBarfAtYouUnlessYouUnzipMe.combine	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.combine = barf("combine");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.filter	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.filter = barf("filter");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.flatten	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.flatten = barf("flatten");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.get	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.get = barf("get");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.getArray	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.getArray = barf("getArray");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.getData	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.getData = barf("getData");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.getShape	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.getShape = barf("getShape");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.map	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.map = barf("map");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.partition	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.partition = barf("partition");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.reduce	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.reduce = barf("reduce");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.scan	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.scan = barf("scan");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.scatter	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.scatter = barf("scatter");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.toString	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    IBarfAtYouUnlessYouUnzipMe.prototype.toString = barf("toString");$/;"	m
+IBarfAtYouUnlessYouUnzipMe.unzip	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^        this.unzip = function () {$/;"	m
+ISP.clone	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.clone = function clone () {$/;"	f
+ISP.contains	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.contains = function contains (name) {$/;"	f
+ISP.intersect	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.intersect = function intersect (other) {$/;"	f
+ISP.subtract	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.subtract = function subtract (other) {$/;"	f
+ISP.toString	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.toString = function toString () {$/;"	f
+ISP.union	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.union = function union (other) {$/;"	f
+Integer	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var Integer = function Integer(value) {$/;"	c
+Integer	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var Integer = function Integer(value) {$/;"	f
+LZMA.BitTreeDecoder	.\openctm\lzma.js	/^LZMA.BitTreeDecoder = function(numBitLevels){$/;"	c
+LZMA.BitTreeDecoder.decode	.\openctm\lzma.js	/^LZMA.BitTreeDecoder.prototype.decode = function(rangeDecoder){$/;"	m
+LZMA.BitTreeDecoder.init	.\openctm\lzma.js	/^LZMA.BitTreeDecoder.prototype.init = function(){$/;"	m
+LZMA.BitTreeDecoder.reverseDecode	.\openctm\lzma.js	/^LZMA.BitTreeDecoder.prototype.reverseDecode = function(rangeDecoder){$/;"	m
+LZMA.Decoder	.\openctm\lzma.js	/^LZMA.Decoder = function(){$/;"	c
+LZMA.Decoder.decode	.\openctm\lzma.js	/^LZMA.Decoder.prototype.decode = function(inStream, outStream, outSize){$/;"	m
+LZMA.Decoder.init	.\openctm\lzma.js	/^LZMA.Decoder.prototype.init = function(){$/;"	m
+LZMA.Decoder.setDecoderProperties	.\openctm\lzma.js	/^LZMA.Decoder.prototype.setDecoderProperties = function(properties){$/;"	m
+LZMA.Decoder.setDictionarySize	.\openctm\lzma.js	/^LZMA.Decoder.prototype.setDictionarySize = function(dictionarySize){$/;"	m
+LZMA.Decoder.setLcLpPb	.\openctm\lzma.js	/^LZMA.Decoder.prototype.setLcLpPb = function(lc, lp, pb){$/;"	m
+LZMA.Decoder2	.\openctm\lzma.js	/^LZMA.Decoder2 = function(){$/;"	c
+LZMA.Decoder2.decodeNormal	.\openctm\lzma.js	/^LZMA.Decoder2.prototype.decodeNormal = function(rangeDecoder){$/;"	m
+LZMA.Decoder2.decodeWithMatchByte	.\openctm\lzma.js	/^LZMA.Decoder2.prototype.decodeWithMatchByte = function(rangeDecoder, matchByte){$/;"	m
+LZMA.Decoder2.init	.\openctm\lzma.js	/^LZMA.Decoder2.prototype.init = function(){$/;"	m
+LZMA.LenDecoder	.\openctm\lzma.js	/^LZMA.LenDecoder = function(){$/;"	c
+LZMA.LenDecoder.create	.\openctm\lzma.js	/^LZMA.LenDecoder.prototype.create = function(numPosStates){$/;"	m
+LZMA.LenDecoder.decode	.\openctm\lzma.js	/^LZMA.LenDecoder.prototype.decode = function(rangeDecoder, posState){$/;"	m
+LZMA.LenDecoder.init	.\openctm\lzma.js	/^LZMA.LenDecoder.prototype.init = function(){$/;"	m
+LZMA.LiteralDecoder	.\openctm\lzma.js	/^LZMA.LiteralDecoder = function(){$/;"	f
+LZMA.LiteralDecoder	.\openctm\lzma.js	/^LZMA.LiteralDecoder.prototype.create = function(numPosBits, numPrevBits){$/;"	c
+LZMA.LiteralDecoder.create	.\openctm\lzma.js	/^LZMA.LiteralDecoder.prototype.create = function(numPosBits, numPrevBits){$/;"	m
+LZMA.LiteralDecoder.getDecoder	.\openctm\lzma.js	/^LZMA.LiteralDecoder.prototype.getDecoder = function(pos, prevByte){$/;"	m
+LZMA.LiteralDecoder.init	.\openctm\lzma.js	/^LZMA.LiteralDecoder.prototype.init = function(){$/;"	m
+LZMA.OutWindow	.\openctm\lzma.js	/^LZMA.OutWindow = function(){$/;"	c
+LZMA.OutWindow.copyBlock	.\openctm\lzma.js	/^LZMA.OutWindow.prototype.copyBlock = function(distance, len){$/;"	m
+LZMA.OutWindow.create	.\openctm\lzma.js	/^LZMA.OutWindow.prototype.create = function(windowSize){$/;"	m
+LZMA.OutWindow.flush	.\openctm\lzma.js	/^LZMA.OutWindow.prototype.flush = function(){$/;"	m
+LZMA.OutWindow.getByte	.\openctm\lzma.js	/^LZMA.OutWindow.prototype.getByte = function(distance){$/;"	m
+LZMA.OutWindow.init	.\openctm\lzma.js	/^LZMA.OutWindow.prototype.init = function(solid){$/;"	m
+LZMA.OutWindow.putByte	.\openctm\lzma.js	/^LZMA.OutWindow.prototype.putByte = function(b){$/;"	m
+LZMA.OutWindow.releaseStream	.\openctm\lzma.js	/^LZMA.OutWindow.prototype.releaseStream = function(){$/;"	m
+LZMA.OutWindow.setStream	.\openctm\lzma.js	/^LZMA.OutWindow.prototype.setStream = function(stream){$/;"	m
+LZMA.RangeDecoder	.\openctm\lzma.js	/^LZMA.RangeDecoder = function(){$/;"	f
+LZMA.RangeDecoder	.\openctm\lzma.js	/^LZMA.RangeDecoder.prototype.setStream = function(stream){$/;"	c
+LZMA.RangeDecoder.decodeBit	.\openctm\lzma.js	/^LZMA.RangeDecoder.prototype.decodeBit = function(probs, index){$/;"	m
+LZMA.RangeDecoder.decodeDirectBits	.\openctm\lzma.js	/^LZMA.RangeDecoder.prototype.decodeDirectBits = function(numTotalBits){$/;"	m
+LZMA.RangeDecoder.init	.\openctm\lzma.js	/^LZMA.RangeDecoder.prototype.init = function(){$/;"	m
+LZMA.RangeDecoder.releaseStream	.\openctm\lzma.js	/^LZMA.RangeDecoder.prototype.releaseStream = function(){$/;"	m
+LZMA.RangeDecoder.setStream	.\openctm\lzma.js	/^LZMA.RangeDecoder.prototype.setStream = function(stream){$/;"	m
+LZMA.decompress	.\openctm\lzma.js	/^LZMA.decompress = function(properties, inStream, outStream, outSize){$/;"	f
+LZMA.initBitModels	.\openctm\lzma.js	/^LZMA.initBitModels = function(probs, len){$/;"	f
+LZMA.reverseDecode2	.\openctm\lzma.js	/^LZMA.reverseDecode2 = function(models, startIndex, rangeDecoder, numBitLevels){$/;"	f
+MALE_MAT	.\facemorph\scripts\pca_kernel.js	/^var MALE_MAT = [$/;"	v
+MLP.allocate	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MLP.allocate = function allocate (size, name) {$/;"	f
+MLP.declare	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MLP.declare = function declare () {$/;"	f
+MLP.join	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MLP.join = function join (other) {$/;"	f
+MLP.overlay	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MLP.overlay = function overlay (other) {$/;"	f
+MSP.add	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.add = function add (name) {$/;"	c
+MSP.create	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.create = function create (name) {$/;"	c
+MSP.declare	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.declare = function declare (size) {$/;"	f
+MSP.declareAlias	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.declareAlias = function declareAlias (alias) {$/;"	f
+MSP.overlay	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.overlay = function overlap (other) {$/;"	f
+MSP.union	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.union = function union (other) {$/;"	f
+MatrixArray	.\xflowAR\script\gl-matrix.js	/^    var MatrixArray = null;$/;"	v
+MatrixArray	.\xflowImageProcessing\gl-matrix.js	/^    var MatrixArray = null;$/;"	v
+MemList	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    var MemList = function () {$/;"	c
+MeshLabFormatHandler	.\meshlab\meshlab-loader.js	/^    MeshLabFormatHandler.prototype.isFormatSupported = function (response, responseType, mimetype) {$/;"	c
+MeshLabFormatHandler.getFormatData	.\meshlab\meshlab-loader.js	/^    MeshLabFormatHandler.prototype.getFormatData = function (response, responseType, mimetype, callback) {$/;"	m
+MeshLabFormatHandler.isFormatSupported	.\meshlab\meshlab-loader.js	/^    MeshLabFormatHandler.prototype.isFormatSupported = function (response, responseType, mimetype) {$/;"	m
+MeshLabJSONDataAdapter	.\meshlab\meshlab-loader.js	/^    var MeshLabJSONDataAdapter = function (xflowNode) {$/;"	c
+MeshLabJSONDataAdapter.getXflowNode	.\meshlab\meshlab-loader.js	/^    MeshLabJSONDataAdapter.prototype.getXflowNode = function () {$/;"	m
+MeshLabJSONFactory	.\meshlab\meshlab-loader.js	/^    MeshLabJSONFactory.prototype.aspect = XML3D.data;$/;"	c
+MeshLabJSONFactory	.\meshlab\meshlab-loader.js	/^    var MeshLabJSONFactory = function () {$/;"	f
+MeshLabJSONFactory.aspect	.\meshlab\meshlab-loader.js	/^    MeshLabJSONFactory.prototype.aspect = XML3D.data;$/;"	m
+MeshLabJSONFactory.createAdapter	.\meshlab\meshlab-loader.js	/^    MeshLabJSONFactory.prototype.createAdapter = function (xflowNode) {$/;"	m
+Object.extend	.\xflowAR\script\JSARToolKit.js	/^Object.extend = function(dst, src) {$/;"	f
+Object.extend	.\xflowImageProcessing\JSARToolKit.js	/^Object.extend = function(dst, src) {$/;"	f
+OpenCTMDataAdapter.getXflowNode	.\openctm\openctm-loader.js	/^	OpenCTMDataAdapter.prototype.getXflowNode = function() {$/;"	m
+OpenCTMFactory	.\openctm\openctm-loader.js	/^	OpenCTMFactory.prototype.aspect = XML3D.data;$/;"	c
+OpenCTMFactory.aspect	.\openctm\openctm-loader.js	/^	OpenCTMFactory.prototype.aspect = XML3D.data;$/;"	m
+OpenCTMFactory.createAdapter	.\openctm\openctm-loader.js	/^	OpenCTMFactory.prototype.createAdapter = function(xflowNode) {$/;"	m
+OpenCTMFormatHandler	.\openctm\openctm-loader.js	/^	OpenCTMFormatHandler.prototype.isFormatSupported = function(response, responseType, mimetype) {$/;"	c
+OpenCTMFormatHandler	.\openctm\openctm-loader.js	/^	var OpenCTMFormatHandler = function() {$/;"	f
+OpenCTMFormatHandler.OpenCTMDataAdapter	.\openctm\openctm-loader.js	/^	var OpenCTMDataAdapter = function (xflowNode) {$/;"	c
+OpenCTMFormatHandler.OpenCTMFactory	.\openctm\openctm-loader.js	/^	var OpenCTMFactory = function(){$/;"	f
+OpenCTMFormatHandler.createInputNode	.\openctm\openctm-loader.js	/^	function createInputNode(name, type, typedArray) {$/;"	f
+OpenCTMFormatHandler.createXflowDataNode	.\openctm\openctm-loader.js	/^	function createXflowDataNode (file) {$/;"	f
+OpenCTMFormatHandler.getFormatDataSynchronously	.\openctm\openctm-loader.js	/^	function getFormatDataSynchronously(response, responseType, mimetype, callback) {$/;"	f
+OpenCTMFormatHandler.getFormatDataWebWorker	.\openctm\openctm-loader.js	/^	function getFormatDataWebWorker(response, responseType, mimetype, callback) {$/;"	c
+OpenCTMFormatHandler.isFormatSupported	.\openctm\openctm-loader.js	/^	OpenCTMFormatHandler.prototype.isFormatSupported = function(response, responseType, mimetype) {$/;"	m
+PCAMATRIX	.\facemorph\scripts\pca_kernel.js	/^var PCAMATRIX = MALE_MAT;$/;"	v
+ParallelArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    ParallelArray.prototype = {$/;"	c
+ParallelArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^var ParallelArray = function () {$/;"	f
+ParallelArray.arrShape	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var arrShape = function arrShape (arr) {$/;"	f
+ParallelArray.convertToTypedArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var convertToTypedArray = function convertToTypedArray(src, arrayConstructor) {$/;"	f
+ParallelArray.createFlatArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var createFlatArray = function createFlatArray (arr) {$/;"	f
+ParallelArray.createFlatArray.flattenFlatParallelArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^        var flattenFlatParallelArray = function flattenFlatParallelArray (level, pa) {$/;"	f
+ParallelArray.debugThrow	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var debugThrow = function (e) {$/;"	f
+ParallelArray.equalsShape	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var equalsShape = function equalsShape (shapeA, shapeB) {$/;"	f
+ParallelArray.fuzzyEqual	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var fuzzyEqual = function fuzzyEqual (x, y, fuzz) {$/;"	f
+ParallelArray.isTypedArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var isTypedArray = function lazyLoad(arg) {$/;"	f
+ParallelArray.lazyLoad	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var isTypedArray = function lazyLoad(arg) {$/;"	f
+ParallelArray.makeIndexOpHandler	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var makeIndexOpHandler = function makeIndexOpProxy (obj) {$/;"	f
+ParallelArray.makeIndexOpProxy	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var makeIndexOpHandler = function makeIndexOpProxy (obj) {$/;"	f
+ParallelArray.materialize	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var materialize = function materialize() {$/;"	f
+ParallelArray.pa	.\xflowRivertrail\rivertrail\ParallelArray.js	/^        pa[property] = function () {$/;"	f
+ParallelArray.requiresData	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var requiresData = function requiresData(pa, property) {$/;"	f
+ParallelArray.shapeToLength	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var shapeToLength = function shapeToLength (shape) {$/;"	f
+ParallelArray.shapeToStrides	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var shapeToStrides = function shapeToStrides(shape) {$/;"	f
+Position.Add	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.Add = function(val)$/;"	m
+Position.Add.Subtract	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.Subtract = function(val)$/;"	m
+Position.Add.Subtract.Apply	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.Apply = function(element)$/;"	m
+Position.Add.Subtract.Bound	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.Bound = function(lower, upper)$/;"	m
+Position.Add.Subtract.Check	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.Check = function()$/;"	m
+Position.Add.Subtract.Max	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.Max = function(val)$/;"	m
+Position.Add.Subtract.Min	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.Min = function(val)$/;"	m
+Position.Add.Trackbar	.\facemorph\scripts\SOTC-Trackbar.js	/^function Trackbar(min, max, width, callback, name)$/;"	c
+Position.Add.absoluteCursorPostion	.\facemorph\scripts\SOTC-Trackbar.js	/^function absoluteCursorPostion(eventObj)$/;"	f
+Position.Add.cancelEvent	.\facemorph\scripts\SOTC-Trackbar.js	/^function cancelEvent(e)$/;"	f
+Position.Add.dragObject	.\facemorph\scripts\SOTC-Trackbar.js	/^function dragObject(element, attachElement, lowerBound, upperBound, startCallback, moveCallback, endCallback, attachLater)$/;"	c
+Position.Add.dragObject.Dispose	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.Dispose = function()$/;"	m
+Position.Add.dragObject.IsDisposed	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.IsDisposed = function() { return disposed; }$/;"	m
+Position.Add.dragObject.IsDragging	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.IsDragging = function(){ return dragging; }$/;"	m
+Position.Add.dragObject.IsListening	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.IsListening = function() { return listening; }$/;"	m
+Position.Add.dragObject.StartListening	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.StartListening = function()$/;"	m
+Position.Add.dragObject.StopListening	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.StopListening = function(stopCurrentDragging)$/;"	m
+Position.Add.dragObject.dragGo	.\facemorph\scripts\SOTC-Trackbar.js	/^  function dragGo(eventObj)$/;"	f
+Position.Add.dragObject.dragStart	.\facemorph\scripts\SOTC-Trackbar.js	/^  function dragStart(eventObj)$/;"	f
+Position.Add.dragObject.dragStop	.\facemorph\scripts\SOTC-Trackbar.js	/^  function dragStop()$/;"	f
+Position.Add.dragObject.dragStopHook	.\facemorph\scripts\SOTC-Trackbar.js	/^  function dragStopHook(eventObj)$/;"	f
+Position.Add.getEventTarget	.\facemorph\scripts\SOTC-Trackbar.js	/^function getEventTarget(e)$/;"	f
+Position.Add.getMousePos	.\facemorph\scripts\SOTC-Trackbar.js	/^function getMousePos(eventObj)$/;"	f
+Position.Add.hookEvent	.\facemorph\scripts\SOTC-Trackbar.js	/^function hookEvent(element, eventName, callback)$/;"	f
+Position.Add.unhookEvent	.\facemorph\scripts\SOTC-Trackbar.js	/^function unhookEvent(element, eventName, callback)$/;"	f
+RAp.clone	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.clone = function () {$/;"	f
+RAp.covers	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.covers = function (other) {$/;"	f
+RAp.forceInt	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.forceInt = function forceInt(val) {$/;"	c
+RAp.get	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.get = function (i) { return this._store[i];};$/;"	f
+RAp.isInt	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.isInt = function isInt() {$/;"	f
+RAp.isUndefined	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.isUndefined = function () {$/;"	f
+RAp.map	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.map = function (f) {$/;"	f
+RAp.set	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.set = function (i,v) { this._store[i] = v; };$/;"	c
+RAp.setInt	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.setInt = function setInt(other, union) {$/;"	c
+RAp.toString	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.toString = function toString() {$/;"	f
+Range	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    var Range = function (lb, ub, isInt) {$/;"	c
+RangeArray	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    var RangeArray = function (src, f) {$/;"	c
+RiverTrail.Helper	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^RiverTrail.Helper = function () {$/;"	f
+RiverTrail.Helper.constructorToElementalType	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function constructorToElementalType (constructor) {$/;"	f
+RiverTrail.Helper.elementalTypeToConstructor	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function elementalTypeToConstructor (type) {$/;"	f
+RiverTrail.Helper.inferPAType	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function inferPAType(pa) {$/;"	f
+RiverTrail.Helper.inferTypedArrayType	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function inferTypedArrayType(array) {$/;"	f
+RiverTrail.Helper.traverseAst	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function traverseAst (ast, f, env) {$/;"	f
+RiverTrail.Helper.wrappedPP	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function wrappedPP (ast) {$/;"	f
+RiverTrail.InferBlockFlow	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^RiverTrail.InferBlockFlow = function () {$/;"	f
+RiverTrail.InferBlockFlow.IdSet	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    var IdSet = function () {$/;"	c
+RiverTrail.InferBlockFlow.infer	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    function infer(ast, ins, outs, locals) {$/;"	f
+RiverTrail.InferMem	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^RiverTrail.InferMem = function () {$/;"	c
+RiverTrail.InferMem.MemSet	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    var MemSet = function () {$/;"	f
+RiverTrail.RangeAnalysis	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^RiverTrail.RangeAnalysis = function () {$/;"	f
+RiverTrail.RangeAnalysis.Constraint	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    var Constraint = function (lb, ub) {$/;"	c
+RiverTrail.RangeAnalysis.Constraints	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    var Constraints = function () {$/;"	c
+RiverTrail.Typeinference	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^RiverTrail.Typeinference = function () {$/;"	f
+RiverTrail.Typeinference.labelGen	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var labelGen = function () {$/;"	f
+RiverTrail.Typeinference.reportError	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    function reportError(msg, ast) {$/;"	f
+RiverTrail.compiler.runOCL	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^RiverTrail.compiler.runOCL = function () {$/;"	f
+RiverTrail.compiler.runOCL.runOCL	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    var runOCL = function runOCL(paSource, kernelString, ast, f, construct, rankOrShape, actualArgs,$/;"	f
+RiverTrail.definitions	.\xflowRivertrail\rivertrail\jit\compiler\definitions.js	/^RiverTrail.definitions = function () {$/;"	f
+RiverTrail.dotviz	.\xflowRivertrail\rivertrail\jit\compiler\dotviz.js	/^RiverTrail.dotviz = function () {$/;"	f
+RiverTrailUtils_Trap	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    function RiverTrailUtils_Trap(ast, tEnv, fEnv) {$/;"	f
+Rp.clone	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.clone = function () {$/;"	f
+Rp.constrain	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.constrain = function (val) {$/;"	f
+Rp.covers	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.covers = function (other) {$/;"	f
+Rp.fixedValue	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.fixedValue = function () {$/;"	f
+Rp.force	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.force = function (val) {$/;"	f
+Rp.forceInt	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.forceInt = function forceInt(val) {$/;"	c
+Rp.isUndefined	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.isUndefined = function () {$/;"	f
+Rp.map	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.map = function (other, fn, isInt) {$/;"	f
+Rp.toString	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.toString = function () {$/;"	f
+Rp.union	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.union = function (val) {$/;"	f
+TBottom	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var TBottom = function () { $/;"	c
+TBp.equals	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TBp.equals = function (other) { return false; };$/;"	f
+TEnv	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var TEnv = function (env, functionFrame) {$/;"	c
+TEp.addRoot	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.addRoot = function (val) {$/;"	f
+TEp.bind	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.bind = function (name, duplicates) {$/;"	f
+TEp.emitDeclarations	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.emitDeclarations = function (renamer) {$/;"	f
+TEp.getRoots	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.getRoots = function () {$/;"	f
+TEp.getType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.getType = function (name) {$/;"	f
+TEp.intersect	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.intersect = function (other) {$/;"	f
+TEp.lookup	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.lookup = function (name) {$/;"	f
+TEp.merge	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.merge = function (other) {$/;"	f
+TEp.resetAccu	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.resetAccu = function () {$/;"	c
+TEp.tagAllUnitialized	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.tagAllUnitialized = function () {$/;"	f
+TEp.toString	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.toString = function () {$/;"	f
+TEp.update	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TEp.update = function (name, type) {$/;"	f
+TFp.clone	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TFp.clone = function (lut) {$/;"	f
+TFp.equals	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TFp.equals = function (other, argsOnly) {$/;"	f
+TFp.toString	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TFp.toString = function () { $/;"	f
+TFunction	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var TFunction = function (parameters, result) {$/;"	c
+TLiteral	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var TLiteral = function (type) {$/;"	c
+TLp.clone	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TLp.clone = function (lut) {$/;"	f
+TLp.equals	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TLp.equals = function (other) {$/;"	f
+TLp.getOpenCLSize	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TLp.getOpenCLSize = function getOpenCLSize() {$/;"	f
+TLp.toString	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TLp.toString = function () { return "Literal: " + this.type + "<" + this.OpenCLType + ">"};$/;"	f
+TObject	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var TObject = function (name) {$/;"	c
+TObject.deriveObjectType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TObject.deriveObjectType = function (obj) {$/;"	f
+TObject.deriveObjectType.isInstance	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^        var isInstance = function isInstance (x) { $/;"	f
+TObject.makeType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TObject.makeType = function (name, val) {$/;"	f
+TOp.clone	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.clone = function (lut) {$/;"	f
+TOp.equals	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.equals = function (other) {$/;"	f
+TOp.getAddressSpace	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.getAddressSpace = function () {$/;"	f
+TOp.getHandler	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.getHandler = function () {$/;"	f
+TOp.getOpenCLAddressSpace	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.getOpenCLAddressSpace = function () {$/;"	f
+TOp.getOpenCLShape	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.getOpenCLShape = function () {$/;"	f
+TOp.getOpenCLSize	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.getOpenCLSize = function () {$/;"	f
+TOp.setAddressSpace	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.setAddressSpace = function (val) {$/;"	f
+TOp.toString	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.toString = function () { $/;"	f
+TOp.updateOpenCLType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TOp.updateOpenCLType = function () {$/;"	c
+TWEEN	.\xflowImageProcessing\xml3d-motion.js	/^var TWEEN = TWEEN || ( function () {$/;"	v
+TWEEN.Tween	.\xflowImageProcessing\xml3d-motion.js	/^TWEEN.Tween = function ( object ) {$/;"	c
+TWEEN.Tween.chain	.\xflowImageProcessing\xml3d-motion.js	/^	this.chain = function ( chainedTween ) {$/;"	m
+TWEEN.Tween.delay	.\xflowImageProcessing\xml3d-motion.js	/^	this.delay = function ( amount ) {$/;"	m
+TWEEN.Tween.easing	.\xflowImageProcessing\xml3d-motion.js	/^	this.easing = function ( easing ) {$/;"	m
+TWEEN.Tween.interpolation	.\xflowImageProcessing\xml3d-motion.js	/^	this.interpolation = function ( interpolation ) {$/;"	m
+TWEEN.Tween.onComplete	.\xflowImageProcessing\xml3d-motion.js	/^	this.onComplete = function ( onCompleteCallback ) {$/;"	m
+TWEEN.Tween.onUpdate	.\xflowImageProcessing\xml3d-motion.js	/^	this.onUpdate = function ( onUpdateCallback ) {$/;"	m
+TWEEN.Tween.start	.\xflowImageProcessing\xml3d-motion.js	/^	this.start = function ( time ) {$/;"	m
+TWEEN.Tween.stop	.\xflowImageProcessing\xml3d-motion.js	/^	this.stop = function () {$/;"	m
+TWEEN.Tween.to	.\xflowImageProcessing\xml3d-motion.js	/^	this.to = function ( properties, duration ) {$/;"	m
+TWEEN.Tween.update	.\xflowImageProcessing\xml3d-motion.js	/^	this.update = function ( time ) {$/;"	m
+Tp.equals	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.equals = function(other) {$/;"	f
+Tp.getAddressSpace	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.getAddressSpace = function () {$/;"	f
+Tp.getOpenCLAddressSpace	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.getOpenCLAddressSpace = function () {$/;"	f
+Tp.getOpenCLShape	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.getOpenCLShape = function () {$/;"	f
+Tp.getOpenCLSize	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.getOpenCLSize = function () {$/;"	f
+Tp.hasAddressSpace	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.hasAddressSpace = function () {$/;"	f
+Tp.isArithType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.isArithType = function () { \/\/ type is allowed argument to arithmetic operations$/;"	f
+Tp.isArrayishType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.isArrayishType = function () { \/\/ checks whether the type is an array like type$/;"	f
+Tp.isBoolType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.isBoolType = function () { \/\/ type is allowed argument to arithmetic operations$/;"	f
+Tp.isBottomType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.isBottomType = function () {$/;"	f
+Tp.isNumberType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.isNumberType = function () { \/\/ type is allowed argument to arithmetic operations$/;"	f
+Tp.isObjectType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.isObjectType = function (name) { \/\/ checks whether type is object; name is optional$/;"	f
+Tp.isScalarType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.isScalarType = function () { \/\/ type is a scalar value$/;"	f
+Tp.isTruthType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.isTruthType = function () { \/\/ type is allowed in predicate positions$/;"	f
+Tp.registerFlow	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.registerFlow = function (from) {$/;"	f
+Tp.registerParamFlow	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.registerParamFlow = function (param) {$/;"	f
+Tp.setAddressSpace	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.setAddressSpace = function (val) {$/;"	f
+Tp.toString	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    Tp.toString = function () { return "<general type>"; };$/;"	f
+Trackbar.GetContainer	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.GetContainer = function()$/;"	m
+Trackbar.GetCurrentValue	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.GetCurrentValue = function()$/;"	m
+Trackbar.GetMaxValue	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.GetMaxValue = function()$/;"	m
+Trackbar.GetMinValue	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.GetMinValue = function()$/;"	m
+Trackbar.GetWidth	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.GetWidth = function()$/;"	m
+Trackbar.OnDrag	.\facemorph\scripts\SOTC-Trackbar.js	/^  function OnDrag(newPos, element)$/;"	f
+Trackbar.OnDragBegin	.\facemorph\scripts\SOTC-Trackbar.js	/^  function OnDragBegin(eventObj, element)$/;"	f
+Trackbar.SetCallback	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.SetCallback = function(newCallback)$/;"	m
+Trackbar.SetCurrentValue	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.SetCurrentValue = function(value)$/;"	m
+Trackbar.SetMaxValue	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.SetMaxValue = function(value)$/;"	m
+Trackbar.SetMinValue	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.SetMinValue = function(value)$/;"	m
+Trackbar.SetWidth	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.SetWidth = function(value)$/;"	m
+Trackbar.StartListening	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.StartListening = function()$/;"	m
+Trackbar.StopListening	.\facemorph\scripts\SOTC-Trackbar.js	/^  this.StopListening = function()$/;"	m
+Trackbar.UpdatePointerPos	.\facemorph\scripts\SOTC-Trackbar.js	/^  function UpdatePointerPos()$/;"	f
+Transformable	.\xflowImageProcessing\xml3d-motion.js	/^    var Transformable = function() {};$/;"	f
+Type	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    var Type = function (kind) {$/;"	c
+VEp.apply	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.apply = function (name, constraint) {$/;"	f
+VEp.applyConstraints	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.applyConstraints = function (constraints) {$/;"	f
+VEp.covers	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.covers = function (other) {$/;"	f
+VEp.enforce	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.enforce = function (name, constraint) {$/;"	f
+VEp.enforceConstraints	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.enforceConstraints = function (constraints) {$/;"	f
+VEp.invalidate	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.invalidate = function () {$/;"	f
+VEp.isEmpty	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.isEmpty = function () {$/;"	f
+VEp.lookup	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.lookup = function (name) {$/;"	f
+VEp.merge	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.merge = function (other) {$/;"	f
+VEp.toString	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.toString = function () {$/;"	f
+VEp.update	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.update = function (name, range) {$/;"	f
+VEp.updateAll	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    VEp.updateAll = function (other) {$/;"	f
+VarEnv	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    var VarEnv = function (env) {$/;"	c
+XBox360Gamepad	.\xflowImageProcessing\xml3d-motion.js	/^	function XBox360Gamepad(status) {$/;"	c
+XBox360Gamepad.initAxes	.\xflowImageProcessing\xml3d-motion.js	/^	XBox360Gamepad.prototype.initAxes = function (status) {$/;"	m
+XBox360Gamepad.initButtons	.\xflowImageProcessing\xml3d-motion.js	/^	XBox360Gamepad.prototype.initButtons = function (status) {$/;"	m
+XBox360Gamepad.updateAxes	.\xflowImageProcessing\xml3d-motion.js	/^	XBox360Gamepad.prototype.updateAxes = function (newStatus) {$/;"	m
+XBox360Gamepad.updateButtons	.\xflowImageProcessing\xml3d-motion.js	/^	XBox360Gamepad.prototype.updateButtons = function (newStatus) {$/;"	m
+XBox360Gamepad.updateStatus	.\xflowImageProcessing\xml3d-motion.js	/^	XBox360Gamepad.prototype.updateStatus = function (newStatus) {$/;"	m
+XML3D.epsilonEquals	.\xflowImageProcessing\xml3d-motion.js	/^    XML3D.epsilonEquals = function(a, b) {$/;"	f
+XMOT.Singleton	.\xflowImageProcessing\xml3d-motion.js	/^    XMOT.Singleton = function(base, body) $/;"	f
+_fastClasses	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var _fastClasses = function () {$/;"	f
+_fastClasses.Fast0DPA	.\xflowRivertrail\rivertrail\ParallelArray.js	/^        var Fast0DPA = function (pa) { $/;"	c
+_onGrpAttrModified	.\xflowImageProcessing\xml3d-motion.js	/^    function _onGrpAttrModified(evt)$/;"	c
+_onViewAttrModified	.\xflowImageProcessing\xml3d-motion.js	/^    function _onViewAttrModified(evt)$/;"	c
+_onXfmAttrModified	.\xflowImageProcessing\xml3d-motion.js	/^    function _onXfmAttrModified(evt)$/;"	c
+_onXfmChanged	.\xflowImageProcessing\xml3d-motion.js	/^    function _onXfmChanged(targetNode, evt)$/;"	c
+_onXml3DAttrModified	.\xflowImageProcessing\xml3d-motion.js	/^    function _onXml3DAttrModified(evt)$/;"	c
+a.addAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    a.addAnimation = function(animation, opt){};$/;"	f
+a.startAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    a.startAnimation = function(name, opt){};$/;"	f
+a.stopAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    a.stopAnimation = function(id){};$/;"	f
+adaptStatusToRoot	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^        function adaptStatusToRoot( expr, tEnv) {$/;"	f
+add	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.add = function add (name) {$/;"	f
+allocate	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MLP.allocate = function allocate (size, name) {$/;"	f
+allocateAlignedTA	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function allocateAlignedTA(template, length) {$/;"	f
+allocateArrayMem	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    function allocateArrayMem(ast, memVars) {$/;"	f
+allocateObjMem	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    function allocateObjMem(ast, memVars) {$/;"	f
+analyze	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^        function analyze(ast, array, construct, rankOrShape, args) {$/;"	f
+analyze	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    function analyze(ast, pa, construct, rank, extraArgs, lowPrecision) {$/;"	f
+animate	.\xflowImageProcessing\xml3d-motion.js	/^function animate(){$/;"	f
+animating	.\xflowImageProcessing\xml3d-motion.js	/^var animating = false;$/;"	v
+animationHook	.\xflowImageProcessing\xml3d-motion.js	/^var animationHook = undefined;$/;"	v
+annotateRangeInfo	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    function annotateRangeInfo(ast, range, mode) {$/;"	f
+argT	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        var argT = tEnv.accu;$/;"	v
+assign	.\xflowRivertrail\xml3d-xflow-ip-module.js	/^function assign(output, input) {		\/\/ Assign input image to output iamge, pixel-wise$/;"	f
+barf	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    var barf = function barf(name) {$/;"	f
+base	.\xflowImageProcessing\xml3d-motion.js	/^function base(me, opt_methodName, var_args) {$/;"	f
+bensLoop	.\gangnam\animation.js	/^     function bensLoop(){$/;"	c
+bridge	.\xflowImageProcessing\xml3d-motion.js	/^        bridge.prototype = base.prototype;$/;"	c
+buildRaw	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var buildRaw = function buildRaw(theThisArray, left, right, fTemp, extraArgs, scalarIndex) {$/;"	f
+c	.\xflowImageProcessing\xml3d-motion.js	/^	var c = ConstraintCollection.prototype;$/;"	v
+c	.\xflowImageProcessing\xml3d-motion.js	/^	var c = ProhibitAxisMovementConstraint.prototype;$/;"	v
+c	.\xflowImageProcessing\xml3d-motion.js	/^    var c = BoxedTranslationConstraint.prototype;$/;"	v
+c.addConstraint	.\xflowImageProcessing\xml3d-motion.js	/^    c.addConstraint = function(constraint){$/;"	c
+c.clipValue	.\xflowImageProcessing\xml3d-motion.js	/^    c.clipValue = function(value, min, max){$/;"	f
+c.constrainRotation	.\xflowImageProcessing\xml3d-motion.js	/^    c.constrainRotation = function(newRotation, opts){};$/;"	f
+c.constrainScaling	.\xflowImageProcessing\xml3d-motion.js	/^    c.constrainScaling = function(newScale, opts){};$/;"	f
+c.constrainTranslation	.\xflowImageProcessing\xml3d-motion.js	/^    c.constrainTranslation = function(newTranslation, opts){};$/;"	f
+c.constraintScaling	.\xflowImageProcessing\xml3d-motion.js	/^    c.constraintScaling = function(newScale, opts) { $/;"	f
+c.removeContraint	.\xflowImageProcessing\xml3d-motion.js	/^    c.removeContraint = function(constraint){$/;"	f
+ca	.\xflowImageProcessing\xml3d-motion.js	/^	var ca = CombinedAnimation.prototype;$/;"	v
+ca	.\xflowImageProcessing\xml3d-motion.js	/^    var ca = ClientAnimatable.prototype;$/;"	v
+ca.addAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    ca.addAnimation = function(animation, opt){$/;"	c
+ca.applyAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    ca.applyAnimation = function(animatable, overAllCurrentTime, overAllstartTime\/*0*\/, overAllendTime, combinedEasing){$/;"	f
+ca.getOptions	.\xflowImageProcessing\xml3d-motion.js	/^	ca.getOptions = function(){$/;"	f
+ca.resetFlags	.\xflowImageProcessing\xml3d-motion.js	/^	ca.resetFlags = function(){$/;"	f
+ca.setOptions	.\xflowImageProcessing\xml3d-motion.js	/^    ca.setOptions = function(opt){$/;"	f
+ca.startAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    ca.startAnimation = function(name, opt){$/;"	c
+ca.startClockGenerator	.\xflowImageProcessing\xml3d-motion.js	/^    ca.startClockGenerator = function(id){$/;"	f
+ca.stopAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    ca.stopAnimation = function(id){$/;"	f
+callback	.\xflowImageProcessing\xml3d-motion.js	/^		this.callback = function(){};$/;"	f
+cam	.\xflowImageProcessing\xml3d-motion.js	/^		var cam = document.getElementById(camera_id);$/;"	v
+cc	.\xflowImageProcessing\xml3d-motion.js	/^	var cc = CameraController.prototype;$/;"	v
+cc.activate	.\xflowImageProcessing\xml3d-motion.js	/^	cc.activate = function(){$/;"	c
+cc.activateFreeFlightCameraMode	.\xflowImageProcessing\xml3d-motion.js	/^	cc.activateFreeFlightCameraMode = function(){$/;"	c
+cc.activateInspectCameraMode	.\xflowImageProcessing\xml3d-motion.js	/^	cc.activateInspectCameraMode = function(){$/;"	c
+cc.addConstraint	.\xflowImageProcessing\xml3d-motion.js	/^	cc.addConstraint = function(constraint){$/;"	c
+cc.addPointOfInterest	.\xflowImageProcessing\xml3d-motion.js	/^	cc.addPointOfInterest = function(position, orientation){$/;"	c
+cc.beforePoi	.\xflowImageProcessing\xml3d-motion.js	/^	cc.beforePoi = function(){$/;"	c
+cc.cameraDirectionAsXML3D	.\xflowImageProcessing\xml3d-motion.js	/^	cc.cameraDirectionAsXML3D = function(){$/;"	f
+cc.deactivate	.\xflowImageProcessing\xml3d-motion.js	/^	cc.deactivate = function(){$/;"	c
+cc.distanceBetweenCameraAndPoint	.\xflowImageProcessing\xml3d-motion.js	/^	cc.distanceBetweenCameraAndPoint = function(point){$/;"	f
+cc.gamepadAxisHandler	.\xflowImageProcessing\xml3d-motion.js	/^	cc.gamepadAxisHandler = function(e){$/;"	c
+cc.gamepadButtonDownHandler	.\xflowImageProcessing\xml3d-motion.js	/^	cc.gamepadButtonDownHandler = function(e){$/;"	f
+cc.gamepadButtonUpHandler	.\xflowImageProcessing\xml3d-motion.js	/^	cc.gamepadButtonUpHandler = function(e){$/;"	c
+cc.getOrientation	.\xflowImageProcessing\xml3d-motion.js	/^	cc.getOrientation = function(){$/;"	f
+cc.getPosition	.\xflowImageProcessing\xml3d-motion.js	/^	cc.getPosition = function(){$/;"	f
+cc.getRotationFromDirection	.\xflowImageProcessing\xml3d-motion.js	/^	cc.getRotationFromDirection = function (direction) {$/;"	f
+cc.getRotationToLookFromPointAtPoint	.\xflowImageProcessing\xml3d-motion.js	/^	cc.getRotationToLookFromPointAtPoint = function (fromPoint, atPoint) {$/;"	f
+cc.handleAxisThreshold	.\xflowImageProcessing\xml3d-motion.js	/^	cc.handleAxisThreshold = function(value){$/;"	f
+cc.keyDownEventHandler	.\xflowImageProcessing\xml3d-motion.js	/^	cc.keyDownEventHandler = function(e){$/;"	f
+cc.keyUpEventHandler	.\xflowImageProcessing\xml3d-motion.js	/^	cc.keyUpEventHandler = function(e){$/;"	f
+cc.lookAtPoint	.\xflowImageProcessing\xml3d-motion.js	/^	cc.lookAtPoint = function(point){$/;"	c
+cc.mouseDownHandler	.\xflowImageProcessing\xml3d-motion.js	/^	cc.mouseDownHandler = function(e){$/;"	f
+cc.mouseMovementHandler	.\xflowImageProcessing\xml3d-motion.js	/^	cc.mouseMovementHandler = function(e){$/;"	c
+cc.mouseUpHandler	.\xflowImageProcessing\xml3d-motion.js	/^	cc.mouseUpHandler = function(e){$/;"	f
+cc.moveBackAndForward	.\xflowImageProcessing\xml3d-motion.js	/^	cc.moveBackAndForward = function(l){$/;"	c
+cc.moveLeftAndRight	.\xflowImageProcessing\xml3d-motion.js	/^	cc.moveLeftAndRight = function(l){$/;"	c
+cc.moveToCallback	.\xflowImageProcessing\xml3d-motion.js	/^	cc.moveToCallback = function(){$/;"	c
+cc.moveUpAndDown	.\xflowImageProcessing\xml3d-motion.js	/^	cc.moveUpAndDown = function(l){$/;"	c
+cc.moveWithKey	.\xflowImageProcessing\xml3d-motion.js	/^	cc.moveWithKey = function(keyCode){$/;"	f
+cc.nextPoi	.\xflowImageProcessing\xml3d-motion.js	/^	cc.nextPoi = function(){$/;"	c
+cc.preventRolling	.\xflowImageProcessing\xml3d-motion.js	/^	cc.preventRolling = function(){$/;"	c
+cc.removePointOfInterest	.\xflowImageProcessing\xml3d-motion.js	/^	cc.removePointOfInterest = function(){$/;"	c
+cc.reset	.\xflowImageProcessing\xml3d-motion.js	/^	cc.reset = function(){$/;"	c
+cc.rotateCameraAroundPointLeftAndRight	.\xflowImageProcessing\xml3d-motion.js	/^	cc.rotateCameraAroundPointLeftAndRight = function(angle){$/;"	c
+cc.rotateCameraAroundPointUpAndDown	.\xflowImageProcessing\xml3d-motion.js	/^	cc.rotateCameraAroundPointUpAndDown = function(angle){$/;"	c
+cc.rotateCameraLeftAndRight	.\xflowImageProcessing\xml3d-motion.js	/^	cc.rotateCameraLeftAndRight = function(angle){$/;"	c
+cc.rotateCameraUpAndDown	.\xflowImageProcessing\xml3d-motion.js	/^	cc.rotateCameraUpAndDown = function(angle){$/;"	c
+cc.rotateLeftAndRight	.\xflowImageProcessing\xml3d-motion.js	/^	cc.rotateLeftAndRight = function(angle)$/;"	f
+cc.rotateUpAndDown	.\xflowImageProcessing\xml3d-motion.js	/^	cc.rotateUpAndDown = function(angle)$/;"	f
+cc.seeTheCompleteScene	.\xflowImageProcessing\xml3d-motion.js	/^	cc.seeTheCompleteScene = function(){$/;"	c
+cc.setMouseButtonValue	.\xflowImageProcessing\xml3d-motion.js	/^	cc.setMouseButtonValue = function(button){$/;"	f
+cc.stopDefaultEventAction	.\xflowImageProcessing\xml3d-motion.js	/^	cc.stopDefaultEventAction = function(e){$/;"	f
+cc.stopMovementToPoi	.\xflowImageProcessing\xml3d-motion.js	/^	cc.stopMovementToPoi = function(){$/;"	c
+cc.toggleHandlers	.\xflowImageProcessing\xml3d-motion.js	/^	cc.toggleHandlers = function(switchOn){$/;"	f
+cc.update	.\xflowImageProcessing\xml3d-motion.js	/^	cc.update = function(){$/;"	c
+cc.updateGamepadMovement	.\xflowImageProcessing\xml3d-motion.js	/^	cc.updateGamepadMovement = function(){$/;"	f
+cc.updateKeyMovement	.\xflowImageProcessing\xml3d-motion.js	/^	cc.updateKeyMovement = function(){$/;"	f
+changePCAMatrix	.\facemorph\scripts\pca_kernel.js	/^function changePCAMatrix(changeTo) {$/;"	f
+changeShaderTo	.\facemorph\scripts\shape.js	/^function changeShaderTo(shaderId) {$/;"	f
+changeToFaceType	.\facemorph\scripts\shape.js	/^function changeToFaceType(type) {$/;"	f
+child	.\xflowImageProcessing\xml3d-motion.js	/^	child.prototype = new tmp();$/;"	c
+child.constructor	.\xflowImageProcessing\xml3d-motion.js	/^	child.prototype.constructor = child;$/;"	m
+clone	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.clone = function clone () {$/;"	f
+cloneAST	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var cloneAST = function (ast) {$/;"	f
+cloneAstArray	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^        var cloneAstArray = function cloneAstArray(array) {$/;"	f
+cloneAstNode	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^        var cloneAstNode = function cloneAstNode(ast) {$/;"	f
+cloneFunction	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var cloneFunction = function (dropTypes) {$/;"	f
+cloneFunction.counter	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^        var counter = function () {$/;"	f
+cloneSon	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^        var cloneSon = function cloneSon(son) {$/;"	f
+cntMin	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^        var cntMin = 0;$/;"	v
+combine	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var combine = function combine(depth, f) { \/\/ optional arguments follow$/;"	f
+combineSeq	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var combineSeq = function combineSeq(depth, f) { \/\/ optional arguments follow$/;"	f
+compareObjectFields	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var compareObjectFields = function(f1, f2) {$/;"	f
+computeBinaryRange	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    function computeBinaryRange(op, leftAst, rightAst, varEnv, doAnnotate, constraints, constraintAccu, inverse) {$/;"	f
+computeRootRangeInfo	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    function computeRootRangeInfo(ast, range) {$/;"	f
+concat	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var concat = function concat () {$/;"	f
+concatArrayData	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var concatArrayData = function concatArrayData () {$/;"	f
+concatTypedArrayData	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var concatTypedArrayData = function concatTypedArrayData () {$/;"	f
+constructor	.\xflowImageProcessing\xml3d-motion.js	/^            constructor.prototype = makeBridge(base);$/;"	c
+constructor.__parentMethods	.\xflowImageProcessing\xml3d-motion.js	/^            constructor.prototype.__parentMethods = {};$/;"	m
+constructor.callSuper	.\xflowImageProcessing\xml3d-motion.js	/^            constructor.prototype.callSuper = function() {};$/;"	m
+constructor.callback	.\xflowImageProcessing\xml3d-motion.js	/^            constructor.prototype.callback = function(methodName){$/;"	m
+contains	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.contains = function contains (name) {$/;"	f
+convolve	.\xflowRivertrail\xml3d-xflow-ip-module.js	/^function convolve(output, input, filter){$/;"	f
+convolveParallel	.\xflowRivertrail\xml3d-xflow-ip-module.js	/^function convolveParallel(index, input, filter){$/;"	f
+create	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.create = function create (name) {$/;"	f
+createComprehensionParallelArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var createComprehensionParallelArray = function createComprehensionParallelArray(sizeVector, theFunction, extraArgs) {$/;"	f
+createEmptyParallelArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var createEmptyParallelArray = function createEmptyParallelArray () {$/;"	c
+createEmptyParallelArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var createEmptyParallelArray = function createEmptyParallelArray () {$/;"	f
+createFlatArray.flattenInner	.\xflowRivertrail\rivertrail\ParallelArray.js	/^        var flattenInner = function flattenInner (level, arr) {$/;"	f
+createImageDataFloat32	.\xflowRivertrail\xml3d-xflow-ip-module.js	/^function createImageDataFloat32(w, h) {$/;"	f
+createOpenCLMemParallelArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var createOpenCLMemParallelArray = function( mobj, shape, type) {$/;"	c
+createSimpleParallelArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var createSimpleParallelArray = function createSimpleParallelArray(values, targetType) {$/;"	f
+createXflowBuffer	.\meshlab\meshlab-loader.js	/^    function createXflowBuffer(data) {$/;"	f
+createXflowNode	.\meshlab\meshlab-loader.js	/^    function createXflowNode(jsonData) {$/;"	f
+debugThrow	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var debugThrow = function (e) {$/;"	f
+declare	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.declare = function declare (size) {$/;"	f
+declareAlias	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.declareAlias = function declareAlias (alias) {$/;"	f
+decodeOpenCTM	.\openctm\openctm-worker.js	/^function decodeOpenCTM(message) {$/;"	f
+depremultiply	.\xflowRivertrail\xml3d-xflow-ip-module.js	/^function depremultiply(input) {$/;"	f
+determineMatrixArrayType	.\xflowAR\script\gl-matrix.js	/^    function determineMatrixArrayType() {$/;"	f
+determineMatrixArrayType	.\xflowImageProcessing\gl-matrix.js	/^    function determineMatrixArrayType() {$/;"	f
+doInfer	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    function doInfer (ast) {$/;"	f
+document.getElementById	.\xflowImageProcessing\ar_asset_app.js	/^    document.getElementById("Start").onclick = function(ev) {$/;"	f
+document.getElementById	.\xflowImageProcessing\ar_asset_xflow.js	/^    document.getElementById("Start").onclick = function(ev) {$/;"	f
+document.getElementById	.\xflowImageProcessing\ar_flying_model.js	/^    document.getElementById("Start").onclick = function(ev) {$/;"	f
+document.getElementById	.\xflowImageProcessing\ar_flying_teapot.js	/^    document.getElementById("Start").onclick = function(ev) {$/;"	f
+dot	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        var dot = ast.children[0];$/;"	v
+drawImageData	.\xflowAR\script\xflar.js	/^function drawImageData(imageData) {$/;"	f
+drawImageData	.\xflowImageProcessing\ARMarkerDetector.js	/^function drawImageData(imageData) {$/;"	f
+drive	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    function drive(ast, varEnv, doAnnotate, constraints, constraintAccu, inverse) {$/;"	f
+drive	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    function drive(ast, tEnv, fEnv) {$/;"	f
+easing	.\xflowImageProcessing\xml3d-motion.js	/^		var easing = opt.easing;$/;"	v
+elseIns	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^                var elseIns = ins.clone();$/;"	v
+elseLocals	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^                var elseLocals = locals.clone();$/;"	v
+elseOuts	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^                var elseOuts = outs.clone();$/;"	v
+empty	.\meshlab\meshlab-loader.js	/^    var empty = function () {$/;"	f
+eraseRangeInfo	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    function eraseRangeInfo(ast) {$/;"	f
+euclideanDist	.\xflowRivertrail\xml3d-xflow-ip-module.js	/^function euclideanDist(point1, point2) {$/;"	f
+extend	.\xflowImageProcessing\xml3d-motion.js	/^function extend(tarobj, srcobj)$/;"	f
+extractMethods	.\xflowImageProcessing\xml3d-motion.js	/^    function extractMethods(obj)$/;"	f
+factory	.\xflowImageProcessing\xml3d-motion.js	/^		var factory = XMOT.ClientMotionFactory;$/;"	v
+fields	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^            var fields = ast.children[0].typeInfo.properties.fields;$/;"	v
+filter	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var filter = function filter(f) {$/;"	f
+findSelectionRoot	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function findSelectionRoot(ast) {$/;"	f
+findSourceInArray	.\meshlab\meshlab-loader.js	/^    function findSourceInArray(source, vertices) {$/;"	f
+flatten	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var flatten = function flatten () {$/;"	f
+flattenRegular	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var flattenRegular = function flattenRegular () {$/;"	f
+flattenRegular.fillArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^         var fillArray = function fillArray ( src, offset, dest) {$/;"	f
+fname	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        var fname = ast.children[0].value;$/;"	v
+forceInt	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    Rp.forceInt = function forceInt(val) {$/;"	f
+found	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                var obj_typeinfo = null; var found = false;$/;"	v
+fun	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        var fun = fEnv.lookup(fname);$/;"	v
+gaussian	.\xflowRivertrail\xml3d-xflow-ip-module.js	/^function gaussian(x,y, sigma) {$/;"	f
+get	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var get = function get (index) {$/;"	f
+getArray	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var getArray = function getArray () {$/;"	f
+getData	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var getData = function getData() {$/;"	f
+getLast	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        right.properties.elements = function getLast(type) { return type.isScalarType() ? type : getLast(type.properties.elements);}(right);$/;"	f
+getOpenCLSize	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function getOpenCLSize(type) {$/;"	f
+getOpenCLSize	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    TLp.getOpenCLSize = function getOpenCLSize() {$/;"	f
+getOrSetRefNode	.\xflowImageProcessing\xml3d-motion.js	/^    function getOrSetRefNode(el, attrName, newRefNode)$/;"	f
+getShape	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var getShape = function getShape(depth) {$/;"	f
+getTransform	.\xflowImageProcessing\ar_asset_app.js	/^var getTransform = function(obj) {$/;"	f
+getTransform	.\xflowImageProcessing\ar_flying_model.js	/^var getTransform = function(obj) {$/;"	f
+getTransform	.\xflowImageProcessing\ar_flying_teapot.js	/^var getTransform = function(obj) {$/;"	f
+glMath.invsqrt	.\xflowAR\script\gl-matrix.js	/^            glMath.invsqrt = function(number) {$/;"	f
+glMath.invsqrt	.\xflowImageProcessing\gl-matrix.js	/^            glMath.invsqrt = function(number) {$/;"	f
+globalInlineObjectTypes	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^var globalInlineObjectTypes = [];$/;"	v
+hasOwnProperty	.\xflowRivertrail\rivertrail\ParallelArray.js	/^            hasOwn:       function(name) { return Object.prototype.hasOwnProperty.call(obj, name); },  $/;"	m
+identityQuat4	.\xflowAR\script\gl-matrix.js	/^    var identityQuat4 = quat4.identity();$/;"	v
+identityQuat4	.\xflowImageProcessing\gl-matrix.js	/^    var identityQuat4 = quat4.identity();$/;"	v
+infer	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    function infer(ast, memVars, ins, outs) {$/;"	f
+inferType	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var inferType = function inferType () {$/;"	f
+init	.\facemorph\scripts\shape.js	/^function init() {$/;"	f
+initARToolkit	.\xflowAR\script\xflar.js	/^function initARToolkit(imageData) {$/;"	f
+initARToolkit	.\xflowImageProcessing\ARMarkerDetector.js	/^function initARToolkit(imageData) {$/;"	f
+initRot	.\xflowImageProcessing\xml3d-motion.js	/^		var initRot = initialRotation || new XML3DRotation();$/;"	v
+insertSpecialisations	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    function insertSpecialisations(ast, where) {$/;"	f
+intersect	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.intersect = function intersect (other) {$/;"	f
+isArrayLiteral	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function isArrayLiteral (ast) {$/;"	f
+isArrayLiteral	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    var isArrayLiteral = RiverTrail.Helper.isArrayLiteral;$/;"	v
+isClientMethod	.\xflowImageProcessing\xml3d-motion.js	/^    function isClientMethod(name)$/;"	f
+isInt	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.isInt = function isInt() {$/;"	f
+isIntValue	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^        function isIntValue(ast) {$/;"	f
+isRegular	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var isRegular = function isRegular() {$/;"	f
+isRegularIndexed	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var isRegularIndexed = function isRegularIndexed(indices) {$/;"	f
+isTypedArray	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^        isTypedArray = function (arr) {$/;"	f
+isTypedArray	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var isTypedArray;$/;"	v
+join	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var join = function join (arg1) {$/;"	f
+join	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MLP.join = function join (other) {$/;"	f
+k	.\xflowImageProcessing\xml3d-motion.js	/^	var k = ClientKeyframeAnimation.prototype;$/;"	v
+k.applyAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    k.applyAnimation = function(animatable, currentTime, startTime, endTime, easing){};$/;"	f
+k.getInterpolatedOrientation	.\xflowImageProcessing\xml3d-motion.js	/^	k.getInterpolatedOrientation = function(index, t){$/;"	f
+k.getInterpolatedPosition	.\xflowImageProcessing\xml3d-motion.js	/^	k.getInterpolatedPosition = function(index, t){$/;"	f
+k.getInterpolatedScale	.\xflowImageProcessing\xml3d-motion.js	/^	k.getInterpolatedScale = function(index, t){$/;"	f
+k.getOptions	.\xflowImageProcessing\xml3d-motion.js	/^	k.getOptions = function(){};$/;"	f
+k.getOrientation	.\xflowImageProcessing\xml3d-motion.js	/^	k.getOrientation = function(key){$/;"	f
+k.getPosition	.\xflowImageProcessing\xml3d-motion.js	/^	k.getPosition = function(key){$/;"	f
+k.getScale	.\xflowImageProcessing\xml3d-motion.js	/^	k.getScale = function(key){$/;"	f
+k.interpolateXML3DVec3	.\xflowImageProcessing\xml3d-motion.js	/^	k.interpolateXML3DVec3 = function(vec1, vec2, t){$/;"	f
+k.setOptions	.\xflowImageProcessing\xml3d-motion.js	/^	k.setOptions = function(opt){};$/;"	f
+k.setValue	.\xflowImageProcessing\xml3d-motion.js	/^	k.setValue = function(animatable, position, orientation, scale){$/;"	f
+kernelCompiler	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var kernelCompiler = false;$/;"	v
+lastTime	.\xflowImageProcessing\ar_asset_app.js	/^var lastTime = Date.now();$/;"	v
+lastTime	.\xflowImageProcessing\ar_asset_xflow.js	/^var lastTime = Date.now();$/;"	v
+lastTime	.\xflowImageProcessing\ar_flying_model.js	/^var lastTime = Date.now();$/;"	v
+low_precision	.\xflowRivertrail\rivertrail\ParallelArray.js	/^var low_precision = function (f) {$/;"	f
+low_precision.wrapper	.\xflowRivertrail\rivertrail\ParallelArray.js	/^low_precision.wrapper = function (f) {$/;"	c
+low_precision.wrapper.unwrap	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    "unwrap" : function () { return this.wrappedFun; }$/;"	m
+m	.\xflowImageProcessing\xml3d-motion.js	/^    var m = MotionFactory.prototype;$/;"	v
+m	.\xflowImageProcessing\xml3d-motion.js	/^    var m = XMOT.math; $/;"	v
+m.axisAngleToQuaternion	.\xflowImageProcessing\xml3d-motion.js	/^    m.axisAngleToQuaternion = function(axis, angle) {$/;"	f
+m.createAnimatable	.\xflowImageProcessing\xml3d-motion.js	/^    m.createAnimatable = function(object, constraint){};$/;"	f
+m.createKeyframeAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    m.createKeyframeAnimation = function(name, type, element, opt){};$/;"	f
+m.createParameterAnimation	.\xflowImageProcessing\xml3d-motion.js	/^    m.createParameterAnimation = function(name, element, opt){};$/;"	f
+m.createTransformable	.\xflowImageProcessing\xml3d-motion.js	/^    m.createTransformable = function(object, constraint){};$/;"	f
+m.degToRad	.\xflowImageProcessing\xml3d-motion.js	/^    m.degToRad = function(deg)$/;"	f
+m.getTransformPlaneToPlane	.\xflowImageProcessing\xml3d-motion.js	/^    m.getTransformPlaneToPlane = function(srcOrig, srcNorm, destOrig, destNorm)$/;"	f
+m.init	.\gangnam\animation.js	/^     m.init = function() {$/;"	f
+m.intersectRayPlane	.\xflowImageProcessing\xml3d-motion.js	/^    m.intersectRayPlane = function(ray, plOrigin, plNormal, hitPoint)$/;"	f
+m.normalizeVector	.\xflowImageProcessing\xml3d-motion.js	/^    m.normalizeVector = function(vector) {$/;"	f
+m.playerStateChanged	.\gangnam\animation.js	/^	m.playerStateChanged = function(state) {$/;"	f
+m.quaternionToAxisAngle	.\xflowImageProcessing\xml3d-motion.js	/^    m.quaternionToAxisAngle = function(quat) {$/;"	f
+m.radToDeg	.\xflowImageProcessing\xml3d-motion.js	/^    m.radToDeg = function(rad)$/;"	f
+m.slerp	.\xflowImageProcessing\xml3d-motion.js	/^    m.slerp = function(from, to, t) {$/;"	f
+m.toLastPos	.\gangnam\animation.js	/^	m.toLastPos = function() {$/;"	f
+m.update	.\gangnam\animation.js	/^	m.update = function() {$/;"	c
+m.vecInverseScale	.\xflowImageProcessing\xml3d-motion.js	/^    m.vecInverseScale = function(vec)$/;"	f
+makeBridge	.\xflowImageProcessing\xml3d-motion.js	/^    function makeBridge(base)$/;"	f
+makeBridge.bridge	.\xflowImageProcessing\xml3d-motion.js	/^        var bridge = function() {};$/;"	f
+makeCast	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^        function makeCast(ast, type) {$/;"	f
+map	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var map = function map (f) { \/\/ extra args passed unchanged and unindexed.$/;"	f
+mapSeq	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var mapSeq = function mapSeq (f) { \/\/ extra args passed unchanged and unindexed.$/;"	f
+mat2.create	.\xflowAR\script\gl-matrix.js	/^    mat2.create = function(src) {$/;"	f
+mat2.create	.\xflowImageProcessing\gl-matrix.js	/^    mat2.create = function(src) {$/;"	f
+mat2.createFrom	.\xflowAR\script\gl-matrix.js	/^    mat2.createFrom = function (m00, m01, m10, m11) {$/;"	f
+mat2.createFrom	.\xflowImageProcessing\gl-matrix.js	/^    mat2.createFrom = function (m00, m01, m10, m11) {$/;"	f
+mat2.determinant	.\xflowAR\script\gl-matrix.js	/^    mat2.determinant = function (mat) {$/;"	f
+mat2.determinant	.\xflowImageProcessing\gl-matrix.js	/^    mat2.determinant = function (mat) {$/;"	f
+mat2.equal	.\xflowAR\script\gl-matrix.js	/^    mat2.equal = function (a, b) {$/;"	f
+mat2.equal	.\xflowImageProcessing\gl-matrix.js	/^    mat2.equal = function (a, b) {$/;"	f
+mat2.identity	.\xflowAR\script\gl-matrix.js	/^    mat2.identity = function (dest) {$/;"	f
+mat2.identity	.\xflowImageProcessing\gl-matrix.js	/^    mat2.identity = function (dest) {$/;"	f
+mat2.inverse	.\xflowAR\script\gl-matrix.js	/^    mat2.inverse = function (mat, dest) {$/;"	f
+mat2.inverse	.\xflowImageProcessing\gl-matrix.js	/^    mat2.inverse = function (mat, dest) {$/;"	f
+mat2.multiply	.\xflowAR\script\gl-matrix.js	/^    mat2.multiply = function (matA, matB, dest) {$/;"	f
+mat2.multiply	.\xflowImageProcessing\gl-matrix.js	/^    mat2.multiply = function (matA, matB, dest) {$/;"	f
+mat2.multiplyVec2	.\xflowAR\script\gl-matrix.js	/^    mat2.multiplyVec2 = function(matrix, vec, dest) {$/;"	f
+mat2.multiplyVec2	.\xflowImageProcessing\gl-matrix.js	/^    mat2.multiplyVec2 = function(matrix, vec, dest) {$/;"	f
+mat2.rotate	.\xflowAR\script\gl-matrix.js	/^    mat2.rotate = function (mat, angle, dest) {$/;"	f
+mat2.rotate	.\xflowImageProcessing\gl-matrix.js	/^    mat2.rotate = function (mat, angle, dest) {$/;"	f
+mat2.scale	.\xflowAR\script\gl-matrix.js	/^    mat2.scale = function(matrix, vec, dest) {$/;"	f
+mat2.scale	.\xflowImageProcessing\gl-matrix.js	/^    mat2.scale = function(matrix, vec, dest) {$/;"	f
+mat2.set	.\xflowAR\script\gl-matrix.js	/^    mat2.set = function (mat, dest) {$/;"	f
+mat2.set	.\xflowImageProcessing\gl-matrix.js	/^    mat2.set = function (mat, dest) {$/;"	f
+mat2.str	.\xflowAR\script\gl-matrix.js	/^    mat2.str = function (mat) {$/;"	f
+mat2.str	.\xflowImageProcessing\gl-matrix.js	/^    mat2.str = function (mat) {$/;"	f
+mat2.transpose	.\xflowAR\script\gl-matrix.js	/^    mat2.transpose = function (mat, dest) {$/;"	f
+mat2.transpose	.\xflowImageProcessing\gl-matrix.js	/^    mat2.transpose = function (mat, dest) {$/;"	f
+mat3.create	.\xflowAR\script\gl-matrix.js	/^    mat3.create = function (mat) {$/;"	f
+mat3.create	.\xflowImageProcessing\gl-matrix.js	/^    mat3.create = function (mat) {$/;"	f
+mat3.createFrom	.\xflowAR\script\gl-matrix.js	/^    mat3.createFrom = function (m00, m01, m02, m10, m11, m12, m20, m21, m22) {$/;"	f
+mat3.createFrom	.\xflowImageProcessing\gl-matrix.js	/^    mat3.createFrom = function (m00, m01, m02, m10, m11, m12, m20, m21, m22) {$/;"	f
+mat3.determinant	.\xflowAR\script\gl-matrix.js	/^    mat3.determinant = function (mat) {$/;"	f
+mat3.determinant	.\xflowImageProcessing\gl-matrix.js	/^    mat3.determinant = function (mat) {$/;"	f
+mat3.equal	.\xflowAR\script\gl-matrix.js	/^    mat3.equal = function (a, b) {$/;"	f
+mat3.equal	.\xflowImageProcessing\gl-matrix.js	/^    mat3.equal = function (a, b) {$/;"	f
+mat3.identity	.\xflowAR\script\gl-matrix.js	/^    mat3.identity = function (dest) {$/;"	f
+mat3.identity	.\xflowImageProcessing\gl-matrix.js	/^    mat3.identity = function (dest) {$/;"	f
+mat3.inverse	.\xflowAR\script\gl-matrix.js	/^    mat3.inverse = function (mat, dest) {$/;"	f
+mat3.inverse	.\xflowImageProcessing\gl-matrix.js	/^    mat3.inverse = function (mat, dest) {$/;"	f
+mat3.multiply	.\xflowAR\script\gl-matrix.js	/^    mat3.multiply = function (mat, mat2, dest) {$/;"	f
+mat3.multiply	.\xflowImageProcessing\gl-matrix.js	/^    mat3.multiply = function (mat, mat2, dest) {$/;"	f
+mat3.multiplyVec2	.\xflowAR\script\gl-matrix.js	/^    mat3.multiplyVec2 = function(matrix, vec, dest) {$/;"	f
+mat3.multiplyVec2	.\xflowImageProcessing\gl-matrix.js	/^    mat3.multiplyVec2 = function(matrix, vec, dest) {$/;"	f
+mat3.multiplyVec3	.\xflowAR\script\gl-matrix.js	/^    mat3.multiplyVec3 = function(matrix, vec, dest) {$/;"	f
+mat3.multiplyVec3	.\xflowImageProcessing\gl-matrix.js	/^    mat3.multiplyVec3 = function(matrix, vec, dest) {$/;"	f
+mat3.set	.\xflowAR\script\gl-matrix.js	/^    mat3.set = function (mat, dest) {$/;"	f
+mat3.set	.\xflowImageProcessing\gl-matrix.js	/^    mat3.set = function (mat, dest) {$/;"	f
+mat3.str	.\xflowAR\script\gl-matrix.js	/^    mat3.str = function (mat) {$/;"	f
+mat3.str	.\xflowImageProcessing\gl-matrix.js	/^    mat3.str = function (mat) {$/;"	f
+mat3.toMat4	.\xflowAR\script\gl-matrix.js	/^    mat3.toMat4 = function (mat, dest) {$/;"	f
+mat3.toMat4	.\xflowImageProcessing\gl-matrix.js	/^    mat3.toMat4 = function (mat, dest) {$/;"	f
+mat3.transpose	.\xflowAR\script\gl-matrix.js	/^    mat3.transpose = function (mat, dest) {$/;"	f
+mat3.transpose	.\xflowImageProcessing\gl-matrix.js	/^    mat3.transpose = function (mat, dest) {$/;"	f
+mat4.create	.\xflowAR\script\gl-matrix.js	/^    mat4.create = function (mat) {$/;"	f
+mat4.create	.\xflowImageProcessing\gl-matrix.js	/^    mat4.create = function (mat) {$/;"	f
+mat4.createFrom	.\xflowAR\script\gl-matrix.js	/^    mat4.createFrom = function (m00, m01, m02, m03, m10, m11, m12, m13, m20, m21, m22, m23, m30, m31, m32, m33) {$/;"	f
+mat4.createFrom	.\xflowImageProcessing\gl-matrix.js	/^    mat4.createFrom = function (m00, m01, m02, m03, m10, m11, m12, m13, m20, m21, m22, m23, m30, m31, m32, m33) {$/;"	f
+mat4.determinant	.\xflowAR\script\gl-matrix.js	/^    mat4.determinant = function (mat) {$/;"	f
+mat4.determinant	.\xflowImageProcessing\gl-matrix.js	/^    mat4.determinant = function (mat) {$/;"	f
+mat4.equal	.\xflowAR\script\gl-matrix.js	/^    mat4.equal = function (a, b) {$/;"	f
+mat4.equal	.\xflowImageProcessing\gl-matrix.js	/^    mat4.equal = function (a, b) {$/;"	f
+mat4.fromRotationTranslation	.\xflowAR\script\gl-matrix.js	/^    mat4.fromRotationTranslation = function (quat, vec, dest) {$/;"	f
+mat4.fromRotationTranslation	.\xflowImageProcessing\gl-matrix.js	/^    mat4.fromRotationTranslation = function (quat, vec, dest) {$/;"	f
+mat4.frustum	.\xflowAR\script\gl-matrix.js	/^    mat4.frustum = function (left, right, bottom, top, near, far, dest) {$/;"	f
+mat4.frustum	.\xflowImageProcessing\gl-matrix.js	/^    mat4.frustum = function (left, right, bottom, top, near, far, dest) {$/;"	f
+mat4.identity	.\xflowAR\script\gl-matrix.js	/^    mat4.identity = function (dest) {$/;"	f
+mat4.identity	.\xflowImageProcessing\gl-matrix.js	/^    mat4.identity = function (dest) {$/;"	f
+mat4.inverse	.\xflowAR\script\gl-matrix.js	/^    mat4.inverse = function (mat, dest) {$/;"	f
+mat4.inverse	.\xflowImageProcessing\gl-matrix.js	/^    mat4.inverse = function (mat, dest) {$/;"	f
+mat4.lookAt	.\xflowAR\script\gl-matrix.js	/^    mat4.lookAt = function (eye, center, up, dest) {$/;"	f
+mat4.lookAt	.\xflowImageProcessing\gl-matrix.js	/^    mat4.lookAt = function (eye, center, up, dest) {$/;"	f
+mat4.multiply	.\xflowAR\script\gl-matrix.js	/^    mat4.multiply = function (mat, mat2, dest) {$/;"	f
+mat4.multiply	.\xflowImageProcessing\gl-matrix.js	/^    mat4.multiply = function (mat, mat2, dest) {$/;"	f
+mat4.multiplyVec3	.\xflowAR\script\gl-matrix.js	/^    mat4.multiplyVec3 = function (mat, vec, dest) {$/;"	f
+mat4.multiplyVec3	.\xflowImageProcessing\gl-matrix.js	/^    mat4.multiplyVec3 = function (mat, vec, dest) {$/;"	f
+mat4.multiplyVec4	.\xflowAR\script\gl-matrix.js	/^    mat4.multiplyVec4 = function (mat, vec, dest) {$/;"	f
+mat4.multiplyVec4	.\xflowImageProcessing\gl-matrix.js	/^    mat4.multiplyVec4 = function (mat, vec, dest) {$/;"	f
+mat4.ortho	.\xflowAR\script\gl-matrix.js	/^    mat4.ortho = function (left, right, bottom, top, near, far, dest) {$/;"	f
+mat4.ortho	.\xflowImageProcessing\gl-matrix.js	/^    mat4.ortho = function (left, right, bottom, top, near, far, dest) {$/;"	f
+mat4.perspective	.\xflowAR\script\gl-matrix.js	/^    mat4.perspective = function (fovy, aspect, near, far, dest) {$/;"	f
+mat4.perspective	.\xflowImageProcessing\gl-matrix.js	/^    mat4.perspective = function (fovy, aspect, near, far, dest) {$/;"	f
+mat4.rotate	.\xflowAR\script\gl-matrix.js	/^    mat4.rotate = function (mat, angle, axis, dest) {$/;"	f
+mat4.rotate	.\xflowImageProcessing\gl-matrix.js	/^    mat4.rotate = function (mat, angle, axis, dest) {$/;"	f
+mat4.rotateX	.\xflowAR\script\gl-matrix.js	/^    mat4.rotateX = function (mat, angle, dest) {$/;"	f
+mat4.rotateX	.\xflowImageProcessing\gl-matrix.js	/^    mat4.rotateX = function (mat, angle, dest) {$/;"	f
+mat4.rotateY	.\xflowAR\script\gl-matrix.js	/^    mat4.rotateY = function (mat, angle, dest) {$/;"	f
+mat4.rotateY	.\xflowImageProcessing\gl-matrix.js	/^    mat4.rotateY = function (mat, angle, dest) {$/;"	f
+mat4.rotateZ	.\xflowAR\script\gl-matrix.js	/^    mat4.rotateZ = function (mat, angle, dest) {$/;"	f
+mat4.rotateZ	.\xflowImageProcessing\gl-matrix.js	/^    mat4.rotateZ = function (mat, angle, dest) {$/;"	f
+mat4.scale	.\xflowAR\script\gl-matrix.js	/^    mat4.scale = function (mat, vec, dest) {$/;"	f
+mat4.scale	.\xflowImageProcessing\gl-matrix.js	/^    mat4.scale = function (mat, vec, dest) {$/;"	f
+mat4.set	.\xflowAR\script\gl-matrix.js	/^    mat4.set = function (mat, dest) {$/;"	f
+mat4.set	.\xflowImageProcessing\gl-matrix.js	/^    mat4.set = function (mat, dest) {$/;"	f
+mat4.str	.\xflowAR\script\gl-matrix.js	/^    mat4.str = function (mat) {$/;"	f
+mat4.str	.\xflowImageProcessing\gl-matrix.js	/^    mat4.str = function (mat) {$/;"	f
+mat4.toInverseMat3	.\xflowAR\script\gl-matrix.js	/^    mat4.toInverseMat3 = function (mat, dest) {$/;"	f
+mat4.toInverseMat3	.\xflowImageProcessing\gl-matrix.js	/^    mat4.toInverseMat3 = function (mat, dest) {$/;"	f
+mat4.toMat3	.\xflowAR\script\gl-matrix.js	/^    mat4.toMat3 = function (mat, dest) {$/;"	f
+mat4.toMat3	.\xflowImageProcessing\gl-matrix.js	/^    mat4.toMat3 = function (mat, dest) {$/;"	f
+mat4.toRotationMat	.\xflowAR\script\gl-matrix.js	/^    mat4.toRotationMat = function (mat, dest) {$/;"	f
+mat4.toRotationMat	.\xflowImageProcessing\gl-matrix.js	/^    mat4.toRotationMat = function (mat, dest) {$/;"	f
+mat4.translate	.\xflowAR\script\gl-matrix.js	/^    mat4.translate = function (mat, vec, dest) {$/;"	f
+mat4.translate	.\xflowImageProcessing\gl-matrix.js	/^    mat4.translate = function (mat, vec, dest) {$/;"	f
+mat4.transpose	.\xflowAR\script\gl-matrix.js	/^    mat4.transpose = function (mat, dest) {$/;"	f
+mat4.transpose	.\xflowImageProcessing\gl-matrix.js	/^    mat4.transpose = function (mat, dest) {$/;"	f
+math.mat4.tween	.\xflowImageProcessing\ar_flying_model.js	/^math.mat4.tween = function(m1,m2,t,dst) {$/;"	f
+math.mat4.tween	.\xflowImageProcessing\ar_flying_teapot.js	/^math.mat4.tween = function(m1,m2,t,dst) {$/;"	f
+mergeOptions	.\xflowImageProcessing\xml3d-motion.js	/^function mergeOptions(high, low){$/;"	f
+modelNames	.\xflowImageProcessing\ar_asset_app.js	/^var modelNames = ["Heavy", "Sniper", "Medic", "Engineer", "Scout"];$/;"	v
+modelNames	.\xflowImageProcessing\ar_asset_xflow.js	/^var modelNames = ["Engineer", "Heavy", "Sniper", "Medic", "Scout"];$/;"	v
+modelNames	.\xflowImageProcessing\ar_flying_model.js	/^var modelNames = ["Engineer", "Heavy", "Sniper", "Medic", "Scout"];$/;"	v
+mytime	.\xflowImageProcessing\ar_asset_app.js	/^var mytime = 0;$/;"	v
+mytime	.\xflowImageProcessing\ar_asset_xflow.js	/^var mytime = 0;$/;"	v
+mytime	.\xflowImageProcessing\ar_flying_model.js	/^var mytime = 0;$/;"	v
+nameGen	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var nameGen = function () {$/;"	f
+namespace	.\xflowImageProcessing\xml3d-motion.js	/^function namespace(fullName)$/;"	f
+ns	.\xflowImageProcessing\xml3d-motion.js	/^    var ns = XMOT.creation; $/;"	v
+ns.box	.\xflowImageProcessing\xml3d-motion.js	/^    ns.box = function(xml3d, id)$/;"	f
+ns.data	.\xflowImageProcessing\xml3d-motion.js	/^    ns.data = function(opts)$/;"	f
+ns.dataSrc	.\xflowImageProcessing\xml3d-motion.js	/^    ns.dataSrc = function(tagName, opts)$/;"	f
+ns.element	.\xflowImageProcessing\xml3d-motion.js	/^    ns.element = function(tagName, opts) {$/;"	f
+ns.lightshaderPoint	.\xflowImageProcessing\xml3d-motion.js	/^    ns.lightshaderPoint = function(opts)$/;"	f
+ns.phongShader	.\xflowImageProcessing\xml3d-motion.js	/^    ns.phongShader = function(opts)$/;"	f
+ns.rectangle	.\xflowImageProcessing\xml3d-motion.js	/^    ns.rectangle = function(xml3d, id)$/;"	f
+ns.sphere	.\xflowImageProcessing\xml3d-motion.js	/^    ns.sphere = function(xml3d, id)$/;"	f
+obj	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                var obj = tEnv.accu;$/;"	v
+obj.__callbacks	.\xflowImageProcessing\xml3d-motion.js	/^            obj.__callbacks[fn] = function() { $/;"	f
+objType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        var objType = tEnv.accu;$/;"	v
+obj_memBufferName	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^        var obj_memBufferName = memVars.allocate(objSize, "OBJ");$/;"	v
+obj_typeinfo	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                var obj_typeinfo = null; var found = false;$/;"	v
+onYouTubePlayerReady	.\gangnam\animation.js	/^ function onYouTubePlayerReady(playerId) {$/;"	f
+other_fields	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^            var other_fields = other.properties.fields;$/;"	v
+overlap	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.overlay = function overlap (other) {$/;"	f
+overlay	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MLP.overlay = function overlay (other) {$/;"	f
+p	.\xflowImageProcessing\xml3d-motion.js	/^    var p = ClientTransformable.prototype;$/;"	v
+p	.\xflowImageProcessing\xml3d-motion.js	/^    var p = TransformTracker.prototype;$/;"	v
+p	.\xflowImageProcessing\xml3d-motion.js	/^    var p = ViewTracker.prototype;$/;"	v
+p	.\xflowImageProcessing\xml3d-motion.js	/^    var p = window.XML3DBox.prototype; $/;"	v
+p	.\xflowImageProcessing\xml3d-motion.js	/^    var p = window.XML3DMatrix.prototype; $/;"	v
+p	.\xflowImageProcessing\xml3d-motion.js	/^    var p = window.XML3DRay.prototype; $/;"	v
+p	.\xflowImageProcessing\xml3d-motion.js	/^    var p = window.XML3DRotation.prototype; $/;"	v
+p	.\xflowImageProcessing\xml3d-motion.js	/^    var p = window.XML3DVec3.prototype; $/;"	v
+p.attach	.\xflowImageProcessing\xml3d-motion.js	/^    p.attach = function(node)$/;"	f
+p.checkIfNoNeedToMove	.\xflowImageProcessing\xml3d-motion.js	/^	p.checkIfNoNeedToMove = function(position, orientation){$/;"	f
+p.checkOrientation	.\xflowImageProcessing\xml3d-motion.js	/^	p.checkOrientation = function(orientation){$/;"	f
+p.checkPosition	.\xflowImageProcessing\xml3d-motion.js	/^	p.checkPosition = function(position){$/;"	f
+p.detach	.\xflowImageProcessing\xml3d-motion.js	/^    p.detach = function(node)$/;"	f
+p.equals	.\xflowImageProcessing\xml3d-motion.js	/^    p.equals = function(other)$/;"	f
+p.getOrientation	.\xflowImageProcessing\xml3d-motion.js	/^    p.getOrientation = function(){};$/;"	f
+p.getPosition	.\xflowImageProcessing\xml3d-motion.js	/^    p.getPosition = function(){};$/;"	f
+p.getScale	.\xflowImageProcessing\xml3d-motion.js	/^    p.getScale = function(){};$/;"	f
+p.interpolateOrientation	.\xflowImageProcessing\xml3d-motion.js	/^    p.interpolateOrientation = function(t){$/;"	f
+p.interpolatePosition	.\xflowImageProcessing\xml3d-motion.js	/^    p.interpolatePosition = function(t){$/;"	f
+p.intersects	.\xflowImageProcessing\xml3d-motion.js	/^    p.intersects = function(other) { $/;"	f
+p.mapVec	.\xflowImageProcessing\xml3d-motion.js	/^    p.mapVec = function(other, f) $/;"	f
+p.moveTo	.\xflowImageProcessing\xml3d-motion.js	/^    p.moveTo = function(position, orientation, time, opt){};$/;"	f
+p.movement	.\xflowImageProcessing\xml3d-motion.js	/^    p.movement = function(currentTime, startTime, endTime, easing){$/;"	c
+p.movementInProgress	.\xflowImageProcessing\xml3d-motion.js	/^    p.movementInProgress = function(){};$/;"	f
+p.multiplyDir	.\xflowImageProcessing\xml3d-motion.js	/^    p.multiplyDir = function(vec) {$/;"	f
+p.multiplyPt	.\xflowImageProcessing\xml3d-motion.js	/^    p.multiplyPt = function(vec, w) {$/;"	f
+p.rotate	.\xflowImageProcessing\xml3d-motion.js	/^    p.rotate = function(rotation){};$/;"	f
+p.rotation	.\xflowImageProcessing\xml3d-motion.js	/^    p.rotation = function() $/;"	f
+p.scale	.\xflowImageProcessing\xml3d-motion.js	/^    p.scale = function(factor){$/;"	c
+p.scale	.\xflowImageProcessing\xml3d-motion.js	/^    p.scale = function(factor){};$/;"	f
+p.setConstraint	.\xflowImageProcessing\xml3d-motion.js	/^    p.setConstraint = function(constraint){$/;"	c
+p.setConstraint	.\xflowImageProcessing\xml3d-motion.js	/^    p.setConstraint = function(constraint){};$/;"	f
+p.setOrientation	.\xflowImageProcessing\xml3d-motion.js	/^    p.setOrientation = function(orientation){};$/;"	f
+p.setPosition	.\xflowImageProcessing\xml3d-motion.js	/^    p.setPosition = function(position){};$/;"	f
+p.setScale	.\xflowImageProcessing\xml3d-motion.js	/^    p.setScale = function(scale){};$/;"	f
+p.setValue	.\xflowImageProcessing\xml3d-motion.js	/^	p.setValue = function(position, orientation){$/;"	f
+p.size	.\xflowImageProcessing\xml3d-motion.js	/^    p.size = function() { $/;"	f
+p.stop	.\xflowImageProcessing\xml3d-motion.js	/^    p.stop = function(){$/;"	c
+p.stop	.\xflowImageProcessing\xml3d-motion.js	/^    p.stop = function(){};$/;"	f
+p.str	.\xflowImageProcessing\xml3d-motion.js	/^    p.str = function() { $/;"	f
+p.toArray	.\xflowImageProcessing\xml3d-motion.js	/^    p.toArray = function() $/;"	f
+p.transform	.\xflowImageProcessing\xml3d-motion.js	/^    p.transform = function(mat)$/;"	c
+p.translate	.\xflowImageProcessing\xml3d-motion.js	/^    p.translate = function(translation){};$/;"	f
+p.translation	.\xflowImageProcessing\xml3d-motion.js	/^    p.translation = function() $/;"	f
+p.transpose	.\xflowImageProcessing\xml3d-motion.js	/^        p.transpose = function() {      $/;"	f
+p.validate	.\xflowImageProcessing\xml3d-motion.js	/^    p.validate = function() $/;"	c
+p.xfmChanged	.\xflowImageProcessing\xml3d-motion.js	/^    p.xfmChanged = function(targetNode, evt) { }; $/;"	f
+parseFunction	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    var parseFunction = function (kernel) {$/;"	f
+partition	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var partition = function partition(partitionSize) {$/;"	f
+partitionFlat	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var partitionFlat = function partitionFlat(pa, partitionSize) {$/;"	f
+playerStateChanged	.\gangnam\animation.js	/^function playerStateChanged(state) {$/;"	f
+pop	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var pop = function pop (f) {$/;"	f
+premultiply	.\xflowRivertrail\xml3d-xflow-ip-module.js	/^function premultiply(input) {		\/\/ Alpha premultiplication$/;"	f
+projMat	.\xflowAR\script\xflar.js	/^    var projMat = ar.param.getProjectionMatrix(zNear, zFar);$/;"	v
+projMat	.\xflowImageProcessing\ARMarkerDetector.js	/^    var projMat = ar.param.getProjectionMatrix(zNear, zFar);$/;"	v
+propagate	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^        function propagate(ast, construct) {$/;"	f
+propagateAddressSpaces	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    function propagateAddressSpaces(roots) {$/;"	f
+propagateAddressSpaces.mergeFlow	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^        var mergeFlow = function (val, currentAS) {$/;"	f
+property_typeInfo	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                var property_typeInfo = [];$/;"	v
+push	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var push = function push (f) {$/;"	f
+push	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^        function push(ast, tEnv, expectInt) {$/;"	f
+quat4.add	.\xflowAR\script\gl-matrix.js	/^    quat4.add = function (quat, quat2, dest) {$/;"	f
+quat4.add	.\xflowImageProcessing\gl-matrix.js	/^    quat4.add = function (quat, quat2, dest) {$/;"	f
+quat4.calculateW	.\xflowAR\script\gl-matrix.js	/^    quat4.calculateW = function (quat, dest) {$/;"	f
+quat4.calculateW	.\xflowImageProcessing\gl-matrix.js	/^    quat4.calculateW = function (quat, dest) {$/;"	f
+quat4.conjugate	.\xflowAR\script\gl-matrix.js	/^    quat4.conjugate = function (quat, dest) {$/;"	f
+quat4.conjugate	.\xflowImageProcessing\gl-matrix.js	/^    quat4.conjugate = function (quat, dest) {$/;"	f
+quat4.create	.\xflowAR\script\gl-matrix.js	/^    quat4.create = function (quat) {$/;"	f
+quat4.create	.\xflowImageProcessing\gl-matrix.js	/^    quat4.create = function (quat) {$/;"	f
+quat4.createFrom	.\xflowAR\script\gl-matrix.js	/^    quat4.createFrom = function (x, y, z, w) {$/;"	f
+quat4.createFrom	.\xflowImageProcessing\gl-matrix.js	/^    quat4.createFrom = function (x, y, z, w) {$/;"	f
+quat4.dot	.\xflowAR\script\gl-matrix.js	/^    quat4.dot = function(quat, quat2){$/;"	f
+quat4.dot	.\xflowImageProcessing\gl-matrix.js	/^    quat4.dot = function(quat, quat2){$/;"	f
+quat4.equal	.\xflowAR\script\gl-matrix.js	/^    quat4.equal = function (a, b) {$/;"	f
+quat4.equal	.\xflowImageProcessing\gl-matrix.js	/^    quat4.equal = function (a, b) {$/;"	f
+quat4.fromAngleAxis	.\xflowAR\script\gl-matrix.js	/^    quat4.fromAngleAxis = function(angle, axis, dest) {$/;"	f
+quat4.fromAngleAxis	.\xflowImageProcessing\gl-matrix.js	/^    quat4.fromAngleAxis = function(angle, axis, dest) {$/;"	f
+quat4.fromAxes	.\xflowAR\script\gl-matrix.js	/^        quat4.fromAxes = function(view, right, up, dest) {$/;"	f
+quat4.fromAxes	.\xflowImageProcessing\gl-matrix.js	/^        quat4.fromAxes = function(view, right, up, dest) {$/;"	f
+quat4.fromRotationMatrix	.\xflowAR\script\gl-matrix.js	/^    quat4.fromRotationMatrix = function(mat, dest) {$/;"	f
+quat4.fromRotationMatrix	.\xflowImageProcessing\gl-matrix.js	/^    quat4.fromRotationMatrix = function(mat, dest) {$/;"	f
+quat4.identity	.\xflowAR\script\gl-matrix.js	/^    quat4.identity = function (dest) {$/;"	f
+quat4.identity	.\xflowImageProcessing\gl-matrix.js	/^    quat4.identity = function (dest) {$/;"	f
+quat4.inverse	.\xflowAR\script\gl-matrix.js	/^    quat4.inverse = function(quat, dest) {$/;"	f
+quat4.inverse	.\xflowImageProcessing\gl-matrix.js	/^    quat4.inverse = function(quat, dest) {$/;"	f
+quat4.length	.\xflowAR\script\gl-matrix.js	/^    quat4.length = function (quat) {$/;"	f
+quat4.length	.\xflowImageProcessing\gl-matrix.js	/^    quat4.length = function (quat) {$/;"	f
+quat4.multiply	.\xflowAR\script\gl-matrix.js	/^    quat4.multiply = function (quat, quat2, dest) {$/;"	f
+quat4.multiply	.\xflowImageProcessing\gl-matrix.js	/^    quat4.multiply = function (quat, quat2, dest) {$/;"	f
+quat4.multiplyVec3	.\xflowAR\script\gl-matrix.js	/^    quat4.multiplyVec3 = function (quat, vec, dest) {$/;"	f
+quat4.multiplyVec3	.\xflowImageProcessing\gl-matrix.js	/^    quat4.multiplyVec3 = function (quat, vec, dest) {$/;"	f
+quat4.normalize	.\xflowAR\script\gl-matrix.js	/^    quat4.normalize = function (quat, dest) {$/;"	f
+quat4.normalize	.\xflowImageProcessing\gl-matrix.js	/^    quat4.normalize = function (quat, dest) {$/;"	f
+quat4.scale	.\xflowAR\script\gl-matrix.js	/^    quat4.scale = function (quat, val, dest) {$/;"	f
+quat4.scale	.\xflowImageProcessing\gl-matrix.js	/^    quat4.scale = function (quat, val, dest) {$/;"	f
+quat4.set	.\xflowAR\script\gl-matrix.js	/^    quat4.set = function (quat, dest) {$/;"	f
+quat4.set	.\xflowImageProcessing\gl-matrix.js	/^    quat4.set = function (quat, dest) {$/;"	f
+quat4.slerp	.\xflowAR\script\gl-matrix.js	/^    quat4.slerp = function (quat, quat2, slerp, dest) {$/;"	f
+quat4.slerp	.\xflowImageProcessing\gl-matrix.js	/^    quat4.slerp = function (quat, quat2, slerp, dest) {$/;"	f
+quat4.str	.\xflowAR\script\gl-matrix.js	/^    quat4.str = function (quat) {$/;"	f
+quat4.str	.\xflowImageProcessing\gl-matrix.js	/^    quat4.str = function (quat) {$/;"	f
+quat4.toAngleAxis	.\xflowAR\script\gl-matrix.js	/^    quat4.toAngleAxis = function(src, dest) {$/;"	f
+quat4.toAngleAxis	.\xflowImageProcessing\gl-matrix.js	/^    quat4.toAngleAxis = function(src, dest) {$/;"	f
+quat4.toMat3	.\xflowAR\script\gl-matrix.js	/^    quat4.toMat3 = function (quat, dest) {$/;"	f
+quat4.toMat3	.\xflowImageProcessing\gl-matrix.js	/^    quat4.toMat3 = function (quat, dest) {$/;"	f
+quat4.toMat4	.\xflowAR\script\gl-matrix.js	/^    quat4.toMat4 = function (quat, dest) {$/;"	f
+quat4.toMat4	.\xflowImageProcessing\gl-matrix.js	/^    quat4.toMat4 = function (quat, dest) {$/;"	f
+queueingAllowed	.\xflowImageProcessing\xml3d-motion.js	/^    	var queueingAllowed = opt.queueing || true;$/;"	v
+reduce	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var reduce = function reduce(f, optionalInit) {$/;"	f
+registeredCameraController	.\xflowImageProcessing\xml3d-motion.js	/^var registeredCameraController = undefined;$/;"	v
+replaceImage	.\gangnam\animation.js	/^ function replaceImage(evt) {$/;"	f
+reportBug	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function reportBug(msg, t) {$/;"	f
+reportBug	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    function reportBug(msg, t) {$/;"	f
+reportError	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function reportError(msg, t) {$/;"	f
+reportError	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    function reportError(msg, t) {$/;"	f
+request	.\xflowImageProcessing\sobel2.js	/^var request = null;$/;"	v
+requestAnimationFrame	.\gangnam\animation.js	/^     var requestAnimationFrame =$/;"	v
+resType	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        var resType = undefined;$/;"	v
+resetAddressSpaces	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    function resetAddressSpaces(roots) {$/;"	f
+resetSliders	.\facemorph\scripts\shape.js	/^function resetSliders() {$/;"	f
+return	.\xflowImageProcessing\xml3d-motion.js	/^			return ctor.prototype[opt_methodName].apply(me, args);$/;"	c
+return	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^        return this.prototype.registry[name].makeType(val);$/;"	c
+return.constructor	.\xflowImageProcessing\xml3d-motion.js	/^		return me.constructor.prototype[opt_methodName].apply(me, args);$/;"	c
+return.registry	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^        return this.prototype.registry[name].makeType(val);$/;"	m
+reverse	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var reverse = function reverse (f) {$/;"	f
+right.properties.elements	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        right.properties.elements = function getLast(type) { return type.isScalarType() ? type : getLast(type.properties.elements);}(right);$/;"	f
+rootFun	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^                        var rootFun = fun;$/;"	v
+runOCL.jsObjectToKernelArg	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^        var jsObjectToKernelArg = function (args, object) {$/;"	f
+s	.\xflowImageProcessing\xml3d-motion.js	/^    var s = SimpleConstraint.prototype;$/;"	v
+s.constrainRotation	.\xflowImageProcessing\xml3d-motion.js	/^    s.constrainRotation = function(newRotation, opts){$/;"	f
+s.constrainScaling	.\xflowImageProcessing\xml3d-motion.js	/^    s.constrainScaling = function(newScale, opts){$/;"	f
+s.constrainTranslation	.\xflowImageProcessing\xml3d-motion.js	/^    s.constrainTranslation = function(newPosition, opts){$/;"	f
+scan	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var scan = function scan(f) {    $/;"	f
+scatter	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var scatter = function scatter(indices, defaultValue, conflictFunction, length) {$/;"	f
+setInt	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.setInt = function setInt(other, union) {$/;"	f
+setMatrixArrayType	.\xflowAR\script\gl-matrix.js	/^    function setMatrixArrayType(type) {$/;"	f
+setMatrixArrayType	.\xflowImageProcessing\gl-matrix.js	/^    function setMatrixArrayType(type) {$/;"	f
+setReferencePoint	.\facemorph\scripts\shape.js	/^function setReferencePoint() {$/;"	f
+setupAR	.\xflowImageProcessing\ar_asset_app.js	/^function setupAR() {$/;"	f
+setupAR.processFrame	.\xflowImageProcessing\ar_asset_app.js	/^    function processFrame() {$/;"	f
+setupAnim	.\xflowImageProcessing\ar_asset_app.js	/^function setupAnim() {$/;"	f
+setupAnim	.\xflowImageProcessing\ar_asset_xflow.js	/^function setupAnim() {$/;"	f
+setupAnim	.\xflowImageProcessing\ar_flying_model.js	/^function setupAnim() {$/;"	f
+setupApp	.\xflowAR\script\ar_flying_teapot.js	/^function setupApp() {$/;"	f
+setupApp	.\xflowImageProcessing\ar_asset_xflow.js	/^function setupApp() {$/;"	f
+setupApp	.\xflowImageProcessing\ar_flying_model.js	/^function setupApp() {$/;"	f
+setupApp	.\xflowImageProcessing\ar_flying_teapot.js	/^function setupApp() {$/;"	f
+shapeToLength	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^    var shapeToLength = function shapeToLength(shape) {$/;"	f
+shift	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var shift =  function shift (f) {$/;"	f
+slice	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var slice = function slice (startArg, endArg) {$/;"	f
+sort	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var sort = function sort (f) {$/;"	f
+splice	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var splice = function splice (f) {$/;"	f
+stripToBaseType	.\xflowRivertrail\rivertrail\jit\compiler\helper.js	/^    function stripToBaseType(s) {$/;"	f
+subtract	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.subtract = function subtract (other) {$/;"	f
+suppressOpenCL	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var suppressOpenCL = false;$/;"	v
+thenLocals	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^                var thenLocals = locals.clone();$/;"	v
+this.__callbacks	.\xflowImageProcessing\xml3d-motion.js	/^                    this.__callbacks[methodName] = function() {$/;"	m
+tmp	.\xflowImageProcessing\xml3d-motion.js	/^	tmp.prototype = parent.prototype;$/;"	c
+tmpvec3	.\xflowAR\script\gl-matrix.js	/^    var tmpvec3 = vec3.create();$/;"	v
+tmpvec3	.\xflowImageProcessing\gl-matrix.js	/^    var tmpvec3 = vec3.create();$/;"	v
+toArray	.\xflowAR\script\JSARToolKit.js	/^toArray = function(obj) {$/;"	f
+toArray	.\xflowImageProcessing\JSARToolKit.js	/^toArray = function(obj) {$/;"	f
+toString	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var toString = function toString (arg1) {$/;"	f
+toString	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.toString = function toString () {$/;"	f
+toString	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^    RAp.toString = function toString() {$/;"	f
+trackBarChange	.\facemorph\scripts\shape.js	/^function trackBarChange(val, pcid)$/;"	f
+trackBoxChange	.\facemorph\scripts\shape.js	/^function trackBoxChange()$/;"	f
+trackBoxMaxChange	.\facemorph\scripts\shape.js	/^function trackBoxMaxChange()$/;"	f
+trackBoxMinChange	.\facemorph\scripts\shape.js	/^function trackBoxMinChange()$/;"	f
+trackBoxWidthChange	.\facemorph\scripts\shape.js	/^function trackBoxWidthChange()$/;"	f
+trackbars	.\facemorph\scripts\shape.js	/^var trackbars = [];$/;"	v
+typeOracle	.\xflowRivertrail\rivertrail\jit\compiler\typeinference.js	/^    function typeOracle(val) {$/;"	f
+u	.\xflowImageProcessing\xml3d-motion.js	/^    var u = XMOT.util;      $/;"	v
+u.getChildrenBBox	.\xflowImageProcessing\xml3d-motion.js	/^    u.getChildrenBBox = function(node)$/;"	f
+u.getNamedChild	.\xflowImageProcessing\xml3d-motion.js	/^    u.getNamedChild = function(tarNode, name)$/;"	f
+u.getOrCreateDefs	.\xflowImageProcessing\xml3d-motion.js	/^    u.getOrCreateDefs = function(xml3d)$/;"	f
+u.getOrCreateTransform	.\xflowImageProcessing\xml3d-motion.js	/^    u.getOrCreateTransform = function(targetGrp, newId)$/;"	f
+u.getWorldBBox	.\xflowImageProcessing\xml3d-motion.js	/^    u.getWorldBBox = function(node)$/;"	f
+u.getXML3DChildren	.\xflowImageProcessing\xml3d-motion.js	/^    u.getXML3DChildren = function(node)$/;"	f
+u.getXml3dRoot	.\xflowImageProcessing\xml3d-motion.js	/^    u.getXml3dRoot = function(el)$/;"	f
+u.shader	.\xflowImageProcessing\xml3d-motion.js	/^    u.shader = function(grp, sh)$/;"	f
+u.transform	.\xflowImageProcessing\xml3d-motion.js	/^    u.transform = function(grp, xfm)$/;"	f
+u.wrapCallback	.\xflowImageProcessing\xml3d-motion.js	/^    u.wrapCallback = function(obj, fn)$/;"	f
+union	.\xflowRivertrail\rivertrail\jit\compiler\inferblockflow.js	/^    ISP.union = function union (other) {$/;"	f
+union	.\xflowRivertrail\rivertrail\jit\compiler\infermem.js	/^    MSP.union = function union (other) {$/;"	f
+unprojectMat	.\xflowAR\script\gl-matrix.js	/^    var unprojectMat = null;$/;"	v
+unprojectMat	.\xflowImageProcessing\gl-matrix.js	/^    var unprojectMat = null;$/;"	v
+unshift	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var unshift = function unshift (f) {$/;"	f
+updateAnim	.\xflowImageProcessing\ar_asset_app.js	/^function updateAnim() {$/;"	f
+updateAnim	.\xflowImageProcessing\ar_asset_xflow.js	/^function updateAnim() {$/;"	f
+updateAnim	.\xflowImageProcessing\ar_flying_model.js	/^function updateAnim() {$/;"	f
+updateToNew	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^        function updateToNew(type, target, name) {$/;"	f
+validIntRepresentation	.\xflowRivertrail\rivertrail\jit\compiler\rangeanalysis.js	/^        function validIntRepresentation(type) {$/;"	f
+value	.\xflowImageProcessing\sobel2.js	/^var value = null;$/;"	v
+var.allocateAndMapResult	.\xflowRivertrail\rivertrail\jit\compiler\runOCL.js	/^            var allocateAndMapResult = function (type) {$/;"	f
+vec2.add	.\xflowAR\script\gl-matrix.js	/^    vec2.add = function(vecA, vecB, dest) {$/;"	f
+vec2.add	.\xflowImageProcessing\gl-matrix.js	/^    vec2.add = function(vecA, vecB, dest) {$/;"	f
+vec2.create	.\xflowAR\script\gl-matrix.js	/^    vec2.create = function(vec) {$/;"	f
+vec2.create	.\xflowImageProcessing\gl-matrix.js	/^    vec2.create = function(vec) {$/;"	f
+vec2.createFrom	.\xflowAR\script\gl-matrix.js	/^    vec2.createFrom = function (x, y) {$/;"	f
+vec2.createFrom	.\xflowImageProcessing\gl-matrix.js	/^    vec2.createFrom = function (x, y) {$/;"	f
+vec2.cross	.\xflowAR\script\gl-matrix.js	/^    vec2.cross = function (vecA, vecB, dest) {$/;"	f
+vec2.cross	.\xflowImageProcessing\gl-matrix.js	/^    vec2.cross = function (vecA, vecB, dest) {$/;"	f
+vec2.direction	.\xflowAR\script\gl-matrix.js	/^    vec2.direction = function (vecA, vecB, dest) {$/;"	f
+vec2.direction	.\xflowImageProcessing\gl-matrix.js	/^    vec2.direction = function (vecA, vecB, dest) {$/;"	f
+vec2.dist	.\xflowAR\script\gl-matrix.js	/^    vec2.dist = function (vecA, vecB) {$/;"	f
+vec2.dist	.\xflowImageProcessing\gl-matrix.js	/^    vec2.dist = function (vecA, vecB) {$/;"	f
+vec2.divide	.\xflowAR\script\gl-matrix.js	/^    vec2.divide = function(vecA, vecB, dest) {$/;"	f
+vec2.divide	.\xflowImageProcessing\gl-matrix.js	/^    vec2.divide = function(vecA, vecB, dest) {$/;"	f
+vec2.dot	.\xflowAR\script\gl-matrix.js	/^    vec2.dot = function (vecA, vecB) {$/;"	f
+vec2.dot	.\xflowImageProcessing\gl-matrix.js	/^    vec2.dot = function (vecA, vecB) {$/;"	f
+vec2.equal	.\xflowAR\script\gl-matrix.js	/^    vec2.equal = function (a, b) {$/;"	f
+vec2.equal	.\xflowImageProcessing\gl-matrix.js	/^    vec2.equal = function (a, b) {$/;"	f
+vec2.length	.\xflowAR\script\gl-matrix.js	/^    vec2.length = function (vec) {$/;"	f
+vec2.length	.\xflowImageProcessing\gl-matrix.js	/^    vec2.length = function (vec) {$/;"	f
+vec2.lerp	.\xflowAR\script\gl-matrix.js	/^    vec2.lerp = function (vecA, vecB, lerp, dest) {$/;"	f
+vec2.lerp	.\xflowImageProcessing\gl-matrix.js	/^    vec2.lerp = function (vecA, vecB, lerp, dest) {$/;"	f
+vec2.multiply	.\xflowAR\script\gl-matrix.js	/^    vec2.multiply = function(vecA, vecB, dest) {$/;"	f
+vec2.multiply	.\xflowImageProcessing\gl-matrix.js	/^    vec2.multiply = function(vecA, vecB, dest) {$/;"	f
+vec2.negate	.\xflowAR\script\gl-matrix.js	/^    vec2.negate = function (vec, dest) {$/;"	f
+vec2.negate	.\xflowImageProcessing\gl-matrix.js	/^    vec2.negate = function (vec, dest) {$/;"	f
+vec2.normalize	.\xflowAR\script\gl-matrix.js	/^    vec2.normalize = function (vec, dest) {$/;"	f
+vec2.normalize	.\xflowImageProcessing\gl-matrix.js	/^    vec2.normalize = function (vec, dest) {$/;"	f
+vec2.scale	.\xflowAR\script\gl-matrix.js	/^    vec2.scale = function(vecA, scalar, dest) {$/;"	f
+vec2.scale	.\xflowImageProcessing\gl-matrix.js	/^    vec2.scale = function(vecA, scalar, dest) {$/;"	f
+vec2.set	.\xflowAR\script\gl-matrix.js	/^    vec2.set = function (vec, dest) {$/;"	f
+vec2.set	.\xflowImageProcessing\gl-matrix.js	/^    vec2.set = function (vec, dest) {$/;"	f
+vec2.squaredLength	.\xflowAR\script\gl-matrix.js	/^    vec2.squaredLength = function (vec) {$/;"	f
+vec2.squaredLength	.\xflowImageProcessing\gl-matrix.js	/^    vec2.squaredLength = function (vec) {$/;"	f
+vec2.str	.\xflowAR\script\gl-matrix.js	/^    vec2.str = function (vec) {$/;"	f
+vec2.str	.\xflowImageProcessing\gl-matrix.js	/^    vec2.str = function (vec) {$/;"	f
+vec2.subtract	.\xflowAR\script\gl-matrix.js	/^    vec2.subtract = function(vecA, vecB, dest) {$/;"	f
+vec2.subtract	.\xflowImageProcessing\gl-matrix.js	/^    vec2.subtract = function(vecA, vecB, dest) {$/;"	f
+vec3.add	.\xflowAR\script\gl-matrix.js	/^    vec3.add = function (vec, vec2, dest) {$/;"	f
+vec3.add	.\xflowImageProcessing\gl-matrix.js	/^    vec3.add = function (vec, vec2, dest) {$/;"	f
+vec3.create	.\xflowAR\script\gl-matrix.js	/^    vec3.create = function (vec) {$/;"	f
+vec3.create	.\xflowImageProcessing\gl-matrix.js	/^    vec3.create = function (vec) {$/;"	f
+vec3.createFrom	.\xflowAR\script\gl-matrix.js	/^    vec3.createFrom = function (x, y, z) {$/;"	f
+vec3.createFrom	.\xflowImageProcessing\gl-matrix.js	/^    vec3.createFrom = function (x, y, z) {$/;"	f
+vec3.cross	.\xflowAR\script\gl-matrix.js	/^    vec3.cross = function (vec, vec2, dest) {$/;"	f
+vec3.cross	.\xflowImageProcessing\gl-matrix.js	/^    vec3.cross = function (vec, vec2, dest) {$/;"	f
+vec3.direction	.\xflowAR\script\gl-matrix.js	/^    vec3.direction = function (vec, vec2, dest) {$/;"	f
+vec3.direction	.\xflowImageProcessing\gl-matrix.js	/^    vec3.direction = function (vec, vec2, dest) {$/;"	f
+vec3.dist	.\xflowAR\script\gl-matrix.js	/^    vec3.dist = function (vec, vec2) {$/;"	f
+vec3.dist	.\xflowImageProcessing\gl-matrix.js	/^    vec3.dist = function (vec, vec2) {$/;"	f
+vec3.dot	.\xflowAR\script\gl-matrix.js	/^    vec3.dot = function (vec, vec2) {$/;"	f
+vec3.dot	.\xflowImageProcessing\gl-matrix.js	/^    vec3.dot = function (vec, vec2) {$/;"	f
+vec3.equal	.\xflowAR\script\gl-matrix.js	/^    vec3.equal = function (a, b) {$/;"	f
+vec3.equal	.\xflowImageProcessing\gl-matrix.js	/^    vec3.equal = function (a, b) {$/;"	f
+vec3.length	.\xflowAR\script\gl-matrix.js	/^    vec3.length = function (vec) {$/;"	f
+vec3.length	.\xflowImageProcessing\gl-matrix.js	/^    vec3.length = function (vec) {$/;"	f
+vec3.lerp	.\xflowAR\script\gl-matrix.js	/^    vec3.lerp = function (vec, vec2, lerp, dest) {$/;"	f
+vec3.lerp	.\xflowImageProcessing\gl-matrix.js	/^    vec3.lerp = function (vec, vec2, lerp, dest) {$/;"	f
+vec3.multiply	.\xflowAR\script\gl-matrix.js	/^    vec3.multiply = function (vec, vec2, dest) {$/;"	f
+vec3.multiply	.\xflowImageProcessing\gl-matrix.js	/^    vec3.multiply = function (vec, vec2, dest) {$/;"	f
+vec3.negate	.\xflowAR\script\gl-matrix.js	/^    vec3.negate = function (vec, dest) {$/;"	f
+vec3.negate	.\xflowImageProcessing\gl-matrix.js	/^    vec3.negate = function (vec, dest) {$/;"	f
+vec3.normalize	.\xflowAR\script\gl-matrix.js	/^    vec3.normalize = function (vec, dest) {$/;"	f
+vec3.normalize	.\xflowImageProcessing\gl-matrix.js	/^    vec3.normalize = function (vec, dest) {$/;"	f
+vec3.rotationTo	.\xflowAR\script\gl-matrix.js	/^    vec3.rotationTo = function (a, b, dest) {$/;"	f
+vec3.rotationTo	.\xflowImageProcessing\gl-matrix.js	/^    vec3.rotationTo = function (a, b, dest) {$/;"	f
+vec3.scale	.\xflowAR\script\gl-matrix.js	/^    vec3.scale = function (vec, val, dest) {$/;"	f
+vec3.scale	.\xflowImageProcessing\gl-matrix.js	/^    vec3.scale = function (vec, val, dest) {$/;"	f
+vec3.set	.\xflowAR\script\gl-matrix.js	/^    vec3.set = function (vec, dest) {$/;"	f
+vec3.set	.\xflowImageProcessing\gl-matrix.js	/^    vec3.set = function (vec, dest) {$/;"	f
+vec3.squaredLength	.\xflowAR\script\gl-matrix.js	/^    vec3.squaredLength = function (vec) {$/;"	f
+vec3.squaredLength	.\xflowImageProcessing\gl-matrix.js	/^    vec3.squaredLength = function (vec) {$/;"	f
+vec3.str	.\xflowAR\script\gl-matrix.js	/^    vec3.str = function (vec) {$/;"	f
+vec3.str	.\xflowImageProcessing\gl-matrix.js	/^    vec3.str = function (vec) {$/;"	f
+vec3.subtract	.\xflowAR\script\gl-matrix.js	/^    vec3.subtract = function (vec, vec2, dest) {$/;"	f
+vec3.subtract	.\xflowImageProcessing\gl-matrix.js	/^    vec3.subtract = function (vec, vec2, dest) {$/;"	f
+vec3.unproject	.\xflowAR\script\gl-matrix.js	/^    vec3.unproject = function (vec, view, proj, viewport, dest) {$/;"	f
+vec3.unproject	.\xflowImageProcessing\gl-matrix.js	/^    vec3.unproject = function (vec, view, proj, viewport, dest) {$/;"	f
+vec4.add	.\xflowAR\script\gl-matrix.js	/^    vec4.add = function(vecA, vecB, dest) {$/;"	f
+vec4.add	.\xflowImageProcessing\gl-matrix.js	/^    vec4.add = function(vecA, vecB, dest) {$/;"	f
+vec4.create	.\xflowAR\script\gl-matrix.js	/^    vec4.create = function(vec) {$/;"	f
+vec4.create	.\xflowImageProcessing\gl-matrix.js	/^    vec4.create = function(vec) {$/;"	f
+vec4.createFrom	.\xflowAR\script\gl-matrix.js	/^    vec4.createFrom = function (x, y, z, w) {$/;"	f
+vec4.createFrom	.\xflowImageProcessing\gl-matrix.js	/^    vec4.createFrom = function (x, y, z, w) {$/;"	f
+vec4.divide	.\xflowAR\script\gl-matrix.js	/^    vec4.divide = function(vecA, vecB, dest) {$/;"	f
+vec4.divide	.\xflowImageProcessing\gl-matrix.js	/^    vec4.divide = function(vecA, vecB, dest) {$/;"	f
+vec4.equal	.\xflowAR\script\gl-matrix.js	/^    vec4.equal = function (a, b) {$/;"	f
+vec4.equal	.\xflowImageProcessing\gl-matrix.js	/^    vec4.equal = function (a, b) {$/;"	f
+vec4.length	.\xflowAR\script\gl-matrix.js	/^    vec4.length = function (vec) {$/;"	f
+vec4.length	.\xflowImageProcessing\gl-matrix.js	/^    vec4.length = function (vec) {$/;"	f
+vec4.lerp	.\xflowAR\script\gl-matrix.js	/^    vec4.lerp = function (vecA, vecB, lerp, dest) {$/;"	f
+vec4.lerp	.\xflowImageProcessing\gl-matrix.js	/^    vec4.lerp = function (vecA, vecB, lerp, dest) {$/;"	f
+vec4.multiply	.\xflowAR\script\gl-matrix.js	/^    vec4.multiply = function(vecA, vecB, dest) {$/;"	f
+vec4.multiply	.\xflowImageProcessing\gl-matrix.js	/^    vec4.multiply = function(vecA, vecB, dest) {$/;"	f
+vec4.negate	.\xflowAR\script\gl-matrix.js	/^    vec4.negate = function (vec, dest) {$/;"	f
+vec4.negate	.\xflowImageProcessing\gl-matrix.js	/^    vec4.negate = function (vec, dest) {$/;"	f
+vec4.scale	.\xflowAR\script\gl-matrix.js	/^    vec4.scale = function(vecA, scalar, dest) {$/;"	f
+vec4.scale	.\xflowImageProcessing\gl-matrix.js	/^    vec4.scale = function(vecA, scalar, dest) {$/;"	f
+vec4.set	.\xflowAR\script\gl-matrix.js	/^    vec4.set = function (vec, dest) {$/;"	f
+vec4.set	.\xflowImageProcessing\gl-matrix.js	/^    vec4.set = function (vec, dest) {$/;"	f
+vec4.squaredLength	.\xflowAR\script\gl-matrix.js	/^    vec4.squaredLength = function (vec) {$/;"	f
+vec4.squaredLength	.\xflowImageProcessing\gl-matrix.js	/^    vec4.squaredLength = function (vec) {$/;"	f
+vec4.str	.\xflowAR\script\gl-matrix.js	/^    vec4.str = function (vec) {$/;"	f
+vec4.str	.\xflowImageProcessing\gl-matrix.js	/^    vec4.str = function (vec) {$/;"	f
+vec4.subtract	.\xflowAR\script\gl-matrix.js	/^    vec4.subtract = function(vecA, vecB, dest) {$/;"	f
+vec4.subtract	.\xflowImageProcessing\gl-matrix.js	/^    vec4.subtract = function(vecA, vecB, dest) {$/;"	f
+viewMat	.\xflowAR\script\xflar.js	/^    var viewMat = XML3D.math.mat4.create();$/;"	v
+viewMat	.\xflowImageProcessing\ARMarkerDetector.js	/^    var viewMat = math.mat4.create();$/;"	v
+window.XML3DRotation.fromMatrix	.\xflowImageProcessing\xml3d-motion.js	/^        window.XML3DRotation.fromMatrix = function(mat) {$/;"	f
+window.onload	.\xflowAR\script\ar_flying_teapot.js	/^window.onload = function() {$/;"	f
+window.onload	.\xflowImageProcessing\ar_asset_app.js	/^window.onload = function() {$/;"	f
+window.onload	.\xflowImageProcessing\ar_asset_xflow.js	/^window.onload = function() {$/;"	f
+window.onload	.\xflowImageProcessing\ar_flying_model.js	/^window.onload = function() {$/;"	f
+window.onload	.\xflowImageProcessing\ar_flying_teapot.js	/^window.onload = function() {$/;"	f
+window.onload	.\xflowImageProcessing\sobel2.js	/^window.onload = function() {$/;"	f
+writeToCanvas	.\xflowRivertrail\rivertrail\ParallelArray.js	/^    var writeToCanvas = function writeToCanvas(canvas) {$/;"	f
+xUnitVec3	.\xflowAR\script\gl-matrix.js	/^    var xUnitVec3 = vec3.createFrom(1,0,0);$/;"	v
+xUnitVec3	.\xflowImageProcessing\gl-matrix.js	/^    var xUnitVec3 = vec3.createFrom(1,0,0);$/;"	v
+yUnitVec3	.\xflowAR\script\gl-matrix.js	/^    var yUnitVec3 = vec3.createFrom(0,1,0);$/;"	v
+yUnitVec3	.\xflowImageProcessing\gl-matrix.js	/^    var yUnitVec3 = vec3.createFrom(0,1,0);$/;"	v
+zFar	.\xflowAR\script\xflar.js	/^    var zFar = 100000.0;$/;"	v
+zFar	.\xflowImageProcessing\ARMarkerDetector.js	/^    var zFar = 100000.0;$/;"	v
+zNear	.\xflowAR\script\xflar.js	/^    var zNear = 0.1;$/;"	v
+zNear	.\xflowImageProcessing\ARMarkerDetector.js	/^    var zNear = 0.1;$/;"	v
+zUnitVec3	.\xflowAR\script\gl-matrix.js	/^    var zUnitVec3 = vec3.createFrom(0,0,1);$/;"	v
+zUnitVec3	.\xflowImageProcessing\gl-matrix.js	/^    var zUnitVec3 = vec3.createFrom(0,0,1);$/;"	v

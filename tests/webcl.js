@@ -233,7 +233,7 @@ test("Processing", function () {
             Math.ceil(1 / localWS[1]) * localWS[1]];
 
     // Execute (enqueue) kernel
-    commandQueue.enqueueNDRangeKernel(kernel1, globalWS.length, [], globalWS, localWS, []);
+    commandQueue.enqueueNDRangeKernel(kernel1, globalWS.length, [0, 0], globalWS, localWS, []);
 
     // Read the result buffer from OpenCL device
     commandQueue.enqueueReadBuffer(buffOut, false, 0, buffSize, result, []);
